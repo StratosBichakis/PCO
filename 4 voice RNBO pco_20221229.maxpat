@@ -40,11 +40,75 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-26",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 581.0, 312.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-16",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 530.0, 312.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-15",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 479.0, 312.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-14",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 428.0, 312.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 428.0, 276.0, 223.0, 22.0 ],
+					"text" : "route rate1 rate2 rate3 rate4"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 280.0, 47.0, 22.0 ],
+					"patching_rect" : [ 312.0, 271.0, 47.0, 22.0 ],
 					"text" : "midiout"
 				}
 
@@ -450,11 +514,11 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"gentilde_obj_52/sync" : 							{
+							"gentilde_obj_52/run" : 							{
 								"value" : 0.0
 							}
 ,
-							"gentilde_obj_52/run" : 							{
+							"gentilde_obj_52/sync" : 							{
 								"value" : 0.0
 							}
 ,
@@ -685,14 +749,6 @@
 								"value" : 0.0
 							}
 ,
-							"gentilde_obj_74/rate" : 							{
-								"value" : 1.0
-							}
-,
-							"gentilde_obj_114/rate" : 							{
-								"value" : 1.0
-							}
-,
 							"gentilde_obj_74/sync" : 							{
 								"value" : 0.0
 							}
@@ -705,12 +761,20 @@
 								"value" : 0.0
 							}
 ,
+							"gentilde_obj_74/rate" : 							{
+								"value" : 1.0
+							}
+,
+							"gentilde_obj_114/rate" : 							{
+								"value" : 1.0
+							}
+,
 							"gentilde_obj_52/rate" : 							{
 								"value" : 1.0
 							}
 ,
 							"rate_4" : 							{
-								"value" : 1.0
+								"value" : 1.03
 							}
 ,
 							"gentilde_obj_28/run" : 							{
@@ -718,7 +782,7 @@
 							}
 ,
 							"rate_1" : 							{
-								"value" : 1.44
+								"value" : 1.42
 							}
 ,
 							"gentilde_obj_114/run" : 							{
@@ -726,11 +790,11 @@
 							}
 ,
 							"rate_3" : 							{
-								"value" : 1.9
+								"value" : 1.35
 							}
 ,
 							"rate_2" : 							{
-								"value" : 1.9
+								"value" : 1.2
 							}
 ,
 							"__presetid" : "pco.4voice"
@@ -748,11 +812,11 @@
 									"subtype" : "",
 									"embed" : 1,
 									"snapshot" : 									{
-										"gentilde_obj_52/sync" : 										{
+										"gentilde_obj_52/run" : 										{
 											"value" : 0.0
 										}
 ,
-										"gentilde_obj_52/run" : 										{
+										"gentilde_obj_52/sync" : 										{
 											"value" : 0.0
 										}
 ,
@@ -983,14 +1047,6 @@
 											"value" : 0.0
 										}
 ,
-										"gentilde_obj_74/rate" : 										{
-											"value" : 1.0
-										}
-,
-										"gentilde_obj_114/rate" : 										{
-											"value" : 1.0
-										}
-,
 										"gentilde_obj_74/sync" : 										{
 											"value" : 0.0
 										}
@@ -1003,12 +1059,20 @@
 											"value" : 0.0
 										}
 ,
+										"gentilde_obj_74/rate" : 										{
+											"value" : 1.0
+										}
+,
+										"gentilde_obj_114/rate" : 										{
+											"value" : 1.0
+										}
+,
 										"gentilde_obj_52/rate" : 										{
 											"value" : 1.0
 										}
 ,
 										"rate_4" : 										{
-											"value" : 1.0
+											"value" : 1.03
 										}
 ,
 										"gentilde_obj_28/run" : 										{
@@ -1016,7 +1080,7 @@
 										}
 ,
 										"rate_1" : 										{
-											"value" : 1.44
+											"value" : 1.42
 										}
 ,
 										"gentilde_obj_114/run" : 										{
@@ -1024,11 +1088,11 @@
 										}
 ,
 										"rate_3" : 										{
-											"value" : 1.9
+											"value" : 1.35
 										}
 ,
 										"rate_2" : 										{
-											"value" : 1.9
+											"value" : 1.2
 										}
 ,
 										"__presetid" : "pco.4voice"
@@ -1281,6 +1345,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-1", 1 ]
 				}
@@ -1348,6 +1419,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-2", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-2", 3 ]
 				}
 
 			}
