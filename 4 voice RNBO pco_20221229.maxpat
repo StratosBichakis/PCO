@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 611.0, 504.0 ],
+		"rect" : [ 243.0, 100.0, 1024.0, 924.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"attr" : "listen_4",
+					"id" : "obj-29",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 220.0, 146.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-26",
@@ -191,74 +204,8 @@
 					"outlettype" : [ "signal", "int", "list" ],
 					"patching_rect" : [ 259.0, 223.0, 100.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"gentilde_obj_114/run" : 						{
-							"label" : "gentilde_obj_114/run",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"gentilde_obj_28/run" : 						{
-							"label" : "gentilde_obj_28/run",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-2/env.lpg/vca_ness" : 						{
-							"label" : "vca_ness",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"listen" : 						{
-							"label" : "listen",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-115/env.lpg/res" : 						{
-							"label" : "res",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-94/output_gain" : 						{
-							"label" : "output_gain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-99/duration" : 						{
-							"label" : "duration",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"gentilde_obj_114/sync" : 						{
-							"label" : "gentilde_obj_114/sync",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"gentilde_obj_74/sync" : 						{
-							"label" : "gentilde_obj_74/sync",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-2/output_gain" : 						{
-							"label" : "output_gain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"gentilde_obj_52/run" : 						{
-							"label" : "gentilde_obj_52/run",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-115/duration" : 						{
-							"label" : "duration",
+						"rate_1" : 						{
+							"label" : "rate_1",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -269,146 +216,8 @@
 							"parsestring" : ""
 						}
 ,
-						"p_obj-94/oscillator_frequency" : 						{
-							"label" : "oscillator_frequency",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-94/env.lpg/offset" : 						{
-							"label" : "offset",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-99/env.lpg/vca_ness" : 						{
-							"label" : "vca_ness",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"gentilde_obj_74/run" : 						{
-							"label" : "gentilde_obj_74/run",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-2/oscillator_frequency" : 						{
-							"label" : "oscillator_frequency",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"gentilde_obj_28/rate" : 						{
-							"label" : "gentilde_obj_28/rate",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-2/env.lpg/offset" : 						{
-							"label" : "offset",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"rate_2" : 						{
 							"label" : "rate_2",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-115/env.lpg/vca_ness" : 						{
-							"label" : "vca_ness",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"rate_1" : 						{
-							"label" : "rate_1",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-94/env.lpg/res" : 						{
-							"label" : "res",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-99/output_gain" : 						{
-							"label" : "output_gain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"gentilde_obj_114/rate" : 						{
-							"label" : "gentilde_obj_114/rate",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"gentilde_obj_28/sync" : 						{
-							"label" : "gentilde_obj_28/sync",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-2/env.lpg/res" : 						{
-							"label" : "res",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"gentilde_obj_52/sync" : 						{
-							"label" : "gentilde_obj_52/sync",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-115/output_gain" : 						{
-							"label" : "output_gain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-94/duration" : 						{
-							"label" : "duration",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-99/oscillator_frequency" : 						{
-							"label" : "oscillator_frequency",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-99/env.lpg/offset" : 						{
-							"label" : "offset",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"gentilde_obj_74/rate" : 						{
-							"label" : "gentilde_obj_74/rate",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-2/duration" : 						{
-							"label" : "duration",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"gentilde_obj_52/rate" : 						{
-							"label" : "gentilde_obj_52/rate",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"p_obj-115/oscillator_frequency" : 						{
-							"label" : "oscillator_frequency",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -419,67 +228,217 @@
 							"parsestring" : ""
 						}
 ,
-						"p_obj-115/env.lpg/offset" : 						{
-							"label" : "offset",
+						"run_1" : 						{
+							"label" : "run_1",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"p_obj-94/env.lpg/vca_ness" : 						{
-							"label" : "vca_ness",
+						"listen_1" : 						{
+							"label" : "listen_1",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"p_obj-99/env.lpg/res" : 						{
+						"run_2" : 						{
+							"label" : "run_2",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"listen_2" : 						{
+							"label" : "listen_2",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"run_3" : 						{
+							"label" : "run_3",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"run_4" : 						{
+							"label" : "run_4",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"listen_3" : 						{
+							"label" : "listen_3",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"listen_4" : 						{
+							"label" : "listen_4",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_1/oscillator_frequency" : 						{
+							"label" : "oscillator_frequency",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_1/output_gain" : 						{
+							"label" : "output_gain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_1/env.lpg/res" : 						{
 							"label" : "res",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"p_obj-2/env.lpg/lp_mode" : 						{
+						"synth_1/env.lpg/vca_ness" : 						{
+							"label" : "vca_ness",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_1/env.lpg/offset" : 						{
+							"label" : "offset",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_2/oscillator_frequency" : 						{
+							"label" : "oscillator_frequency",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_2/output_gain" : 						{
+							"label" : "output_gain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_2/env.lpg/res" : 						{
+							"label" : "res",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_2/env.lpg/vca_ness" : 						{
+							"label" : "vca_ness",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_2/env.lpg/offset" : 						{
+							"label" : "offset",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_3/oscillator_frequency" : 						{
+							"label" : "oscillator_frequency",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_3/output_gain" : 						{
+							"label" : "output_gain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_3/env.lpg/res" : 						{
+							"label" : "res",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_3/env.lpg/vca_ness" : 						{
+							"label" : "vca_ness",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_3/env.lpg/offset" : 						{
+							"label" : "offset",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_4/oscillator_frequency" : 						{
+							"label" : "oscillator_frequency",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_4/output_gain" : 						{
+							"label" : "output_gain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_4/env.lpg/res" : 						{
+							"label" : "res",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_4/env.lpg/vca_ness" : 						{
+							"label" : "vca_ness",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_4/env.lpg/offset" : 						{
+							"label" : "offset",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_1/env.lpg/lp_mode" : 						{
 							"label" : "lp_mode",
 							"isEnum" : 1,
 							"parsestring" : "\"off\" \"on\""
 						}
 ,
-						"p_obj-2/env.lpg/nonlin" : 						{
+						"synth_1/env.lpg/nonlin" : 						{
 							"label" : "nonlin",
 							"isEnum" : 1,
 							"parsestring" : "\"off\" \"on\""
 						}
 ,
-						"p_obj-115/env.lpg/lp_mode" : 						{
+						"synth_2/env.lpg/lp_mode" : 						{
 							"label" : "lp_mode",
 							"isEnum" : 1,
 							"parsestring" : "\"off\" \"on\""
 						}
 ,
-						"p_obj-115/env.lpg/nonlin" : 						{
+						"synth_2/env.lpg/nonlin" : 						{
 							"label" : "nonlin",
 							"isEnum" : 1,
 							"parsestring" : "\"off\" \"on\""
 						}
 ,
-						"p_obj-94/env.lpg/lp_mode" : 						{
+						"synth_3/env.lpg/lp_mode" : 						{
 							"label" : "lp_mode",
 							"isEnum" : 1,
 							"parsestring" : "\"off\" \"on\""
 						}
 ,
-						"p_obj-94/env.lpg/nonlin" : 						{
+						"synth_3/env.lpg/nonlin" : 						{
 							"label" : "nonlin",
 							"isEnum" : 1,
 							"parsestring" : "\"off\" \"on\""
 						}
 ,
-						"p_obj-99/env.lpg/lp_mode" : 						{
+						"synth_4/env.lpg/lp_mode" : 						{
 							"label" : "lp_mode",
 							"isEnum" : 1,
 							"parsestring" : "\"off\" \"on\""
 						}
 ,
-						"p_obj-99/env.lpg/nonlin" : 						{
+						"synth_4/env.lpg/nonlin" : 						{
 							"label" : "nonlin",
 							"isEnum" : 1,
 							"parsestring" : "\"off\" \"on\""
@@ -514,80 +473,12 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"gentilde_obj_52/run" : 							{
-								"value" : 0.0
-							}
-,
-							"gentilde_obj_52/sync" : 							{
-								"value" : 0.0
-							}
-,
-							"gentilde_obj_28/sync" : 							{
-								"value" : 0.0
-							}
-,
 							"__sps" : 							{
-								"p_obj-50" : 								{
-
-								}
-,
-								"p_obj-99" : 								{
-									"duration" : 									{
-										"value" : 250.0
-									}
-,
-									"__sps" : 									{
-										"env.lpg" : 										{
-											"__sps" : 											{
-												"p_obj-25" : 												{
-
-												}
-
-											}
-,
-											"nonlin" : 											{
-												"value" : 0.0
-											}
-,
-											"lp_mode" : 											{
-												"value" : 0.0
-											}
-,
-											"offset" : 											{
-												"value" : 0.0
-											}
-,
-											"vca_ness" : 											{
-												"value" : 0.5
-											}
-,
-											"res" : 											{
-												"value" : 0.5
-											}
-
-										}
-
-									}
-,
-									"output_gain" : 									{
-										"value" : -14.0
-									}
-,
-									"oscillator_frequency" : 									{
-										"value" : 129.0
-									}
-
-								}
-,
 								"p_obj-26" : 								{
 
 								}
 ,
-								"p_obj-94" : 								{
-									"duration" : 									{
-										"value" : 250.0
-									}
-,
+								"synth_4" : 								{
 									"__sps" : 									{
 										"env.lpg" : 										{
 											"__sps" : 											{
@@ -626,7 +517,55 @@
 									}
 ,
 									"oscillator_frequency" : 									{
-										"value" : 289.0
+										"value" : 93.000000000000014
+									}
+
+								}
+,
+								"p_obj-72" : 								{
+
+								}
+,
+								"synth_2" : 								{
+									"__sps" : 									{
+										"env.lpg" : 										{
+											"__sps" : 											{
+												"p_obj-25" : 												{
+
+												}
+
+											}
+,
+											"nonlin" : 											{
+												"value" : 0.0
+											}
+,
+											"lp_mode" : 											{
+												"value" : 0.0
+											}
+,
+											"offset" : 											{
+												"value" : 0.0
+											}
+,
+											"vca_ness" : 											{
+												"value" : 0.5
+											}
+,
+											"res" : 											{
+												"value" : 0.5
+											}
+
+										}
+
+									}
+,
+									"output_gain" : 									{
+										"value" : -14.0
+									}
+,
+									"oscillator_frequency" : 									{
+										"value" : 370.0
 									}
 
 								}
@@ -635,63 +574,11 @@
 
 								}
 ,
-								"p_obj-72" : 								{
+								"p_obj-50" : 								{
 
 								}
 ,
-								"p_obj-115" : 								{
-									"duration" : 									{
-										"value" : 250.0
-									}
-,
-									"__sps" : 									{
-										"env.lpg" : 										{
-											"__sps" : 											{
-												"p_obj-25" : 												{
-
-												}
-
-											}
-,
-											"nonlin" : 											{
-												"value" : 0.0
-											}
-,
-											"lp_mode" : 											{
-												"value" : 0.0
-											}
-,
-											"offset" : 											{
-												"value" : 0.0
-											}
-,
-											"vca_ness" : 											{
-												"value" : 0.5
-											}
-,
-											"res" : 											{
-												"value" : 0.5
-											}
-
-										}
-
-									}
-,
-									"output_gain" : 									{
-										"value" : -14.0
-									}
-,
-									"oscillator_frequency" : 									{
-										"value" : 500.0
-									}
-
-								}
-,
-								"p_obj-2" : 								{
-									"duration" : 									{
-										"value" : 250.0
-									}
-,
+								"synth_1" : 								{
 									"__sps" : 									{
 										"env.lpg" : 										{
 											"__sps" : 											{
@@ -735,69 +622,105 @@
 
 								}
 ,
+								"synth_3" : 								{
+									"__sps" : 									{
+										"env.lpg" : 										{
+											"__sps" : 											{
+												"p_obj-25" : 												{
+
+												}
+
+											}
+,
+											"nonlin" : 											{
+												"value" : 0.0
+											}
+,
+											"lp_mode" : 											{
+												"value" : 0.0
+											}
+,
+											"offset" : 											{
+												"value" : 0.0
+											}
+,
+											"vca_ness" : 											{
+												"value" : 0.5
+											}
+,
+											"res" : 											{
+												"value" : 0.5
+											}
+
+										}
+
+									}
+,
+									"output_gain" : 									{
+										"value" : -14.0
+									}
+,
+									"oscillator_frequency" : 									{
+										"value" : 185.800000000000011
+									}
+
+								}
+,
 								"pco_reset_mixer" : 								{
 
 								}
 
 							}
 ,
-							"gentilde_obj_28/rate" : 							{
-								"value" : 1.0
+							"listen_4" : 							{
+								"value" : 0.054
 							}
 ,
-							"gentilde_obj_74/run" : 							{
+							"run_4" : 							{
 								"value" : 0.0
 							}
 ,
-							"gentilde_obj_74/sync" : 							{
+							"listen_3" : 							{
+								"value" : 0.265
+							}
+,
+							"run_3" : 							{
 								"value" : 0.0
 							}
 ,
-							"listen" : 							{
-								"value" : 0.0
-							}
-,
-							"gentilde_obj_114/sync" : 							{
-								"value" : 0.0
-							}
-,
-							"gentilde_obj_74/rate" : 							{
-								"value" : 1.0
-							}
-,
-							"gentilde_obj_114/rate" : 							{
-								"value" : 1.0
-							}
-,
-							"gentilde_obj_52/rate" : 							{
-								"value" : 1.0
-							}
-,
-							"rate_4" : 							{
-								"value" : 1.03
-							}
-,
-							"gentilde_obj_28/run" : 							{
-								"value" : 0.0
-							}
-,
-							"rate_1" : 							{
-								"value" : 1.42
-							}
-,
-							"gentilde_obj_114/run" : 							{
-								"value" : 0.0
-							}
-,
-							"rate_3" : 							{
-								"value" : 1.35
+							"__presetid" : "pco.4voice",
+							"listen_2" : 							{
+								"value" : 0.177
 							}
 ,
 							"rate_2" : 							{
-								"value" : 1.2
+								"value" : 2.24
 							}
 ,
-							"__presetid" : "pco.4voice"
+							"run_2" : 							{
+								"value" : 0.0
+							}
+,
+							"listen_1" : 							{
+								"value" : 0.266
+							}
+,
+							"rate_1" : 							{
+								"value" : 1.63
+							}
+,
+							"rate_3" : 							{
+								"value" : 3.340000000000001
+							}
+,
+							"rate_4" : 							{
+								"value" : 1.44
+							}
+,
+							"run_1" : 							{
+								"value" : 0.0
+							}
+
 						}
 ,
 						"snapshotlist" : 						{
@@ -812,80 +735,12 @@
 									"subtype" : "",
 									"embed" : 1,
 									"snapshot" : 									{
-										"gentilde_obj_52/run" : 										{
-											"value" : 0.0
-										}
-,
-										"gentilde_obj_52/sync" : 										{
-											"value" : 0.0
-										}
-,
-										"gentilde_obj_28/sync" : 										{
-											"value" : 0.0
-										}
-,
 										"__sps" : 										{
-											"p_obj-50" : 											{
-
-											}
-,
-											"p_obj-99" : 											{
-												"duration" : 												{
-													"value" : 250.0
-												}
-,
-												"__sps" : 												{
-													"env.lpg" : 													{
-														"__sps" : 														{
-															"p_obj-25" : 															{
-
-															}
-
-														}
-,
-														"nonlin" : 														{
-															"value" : 0.0
-														}
-,
-														"lp_mode" : 														{
-															"value" : 0.0
-														}
-,
-														"offset" : 														{
-															"value" : 0.0
-														}
-,
-														"vca_ness" : 														{
-															"value" : 0.5
-														}
-,
-														"res" : 														{
-															"value" : 0.5
-														}
-
-													}
-
-												}
-,
-												"output_gain" : 												{
-													"value" : -14.0
-												}
-,
-												"oscillator_frequency" : 												{
-													"value" : 129.0
-												}
-
-											}
-,
 											"p_obj-26" : 											{
 
 											}
 ,
-											"p_obj-94" : 											{
-												"duration" : 												{
-													"value" : 250.0
-												}
-,
+											"synth_4" : 											{
 												"__sps" : 												{
 													"env.lpg" : 													{
 														"__sps" : 														{
@@ -924,7 +779,55 @@
 												}
 ,
 												"oscillator_frequency" : 												{
-													"value" : 289.0
+													"value" : 93.000000000000014
+												}
+
+											}
+,
+											"p_obj-72" : 											{
+
+											}
+,
+											"synth_2" : 											{
+												"__sps" : 												{
+													"env.lpg" : 													{
+														"__sps" : 														{
+															"p_obj-25" : 															{
+
+															}
+
+														}
+,
+														"nonlin" : 														{
+															"value" : 0.0
+														}
+,
+														"lp_mode" : 														{
+															"value" : 0.0
+														}
+,
+														"offset" : 														{
+															"value" : 0.0
+														}
+,
+														"vca_ness" : 														{
+															"value" : 0.5
+														}
+,
+														"res" : 														{
+															"value" : 0.5
+														}
+
+													}
+
+												}
+,
+												"output_gain" : 												{
+													"value" : -14.0
+												}
+,
+												"oscillator_frequency" : 												{
+													"value" : 370.0
 												}
 
 											}
@@ -933,63 +836,11 @@
 
 											}
 ,
-											"p_obj-72" : 											{
+											"p_obj-50" : 											{
 
 											}
 ,
-											"p_obj-115" : 											{
-												"duration" : 												{
-													"value" : 250.0
-												}
-,
-												"__sps" : 												{
-													"env.lpg" : 													{
-														"__sps" : 														{
-															"p_obj-25" : 															{
-
-															}
-
-														}
-,
-														"nonlin" : 														{
-															"value" : 0.0
-														}
-,
-														"lp_mode" : 														{
-															"value" : 0.0
-														}
-,
-														"offset" : 														{
-															"value" : 0.0
-														}
-,
-														"vca_ness" : 														{
-															"value" : 0.5
-														}
-,
-														"res" : 														{
-															"value" : 0.5
-														}
-
-													}
-
-												}
-,
-												"output_gain" : 												{
-													"value" : -14.0
-												}
-,
-												"oscillator_frequency" : 												{
-													"value" : 500.0
-												}
-
-											}
-,
-											"p_obj-2" : 											{
-												"duration" : 												{
-													"value" : 250.0
-												}
-,
+											"synth_1" : 											{
 												"__sps" : 												{
 													"env.lpg" : 													{
 														"__sps" : 														{
@@ -1033,69 +884,105 @@
 
 											}
 ,
+											"synth_3" : 											{
+												"__sps" : 												{
+													"env.lpg" : 													{
+														"__sps" : 														{
+															"p_obj-25" : 															{
+
+															}
+
+														}
+,
+														"nonlin" : 														{
+															"value" : 0.0
+														}
+,
+														"lp_mode" : 														{
+															"value" : 0.0
+														}
+,
+														"offset" : 														{
+															"value" : 0.0
+														}
+,
+														"vca_ness" : 														{
+															"value" : 0.5
+														}
+,
+														"res" : 														{
+															"value" : 0.5
+														}
+
+													}
+
+												}
+,
+												"output_gain" : 												{
+													"value" : -14.0
+												}
+,
+												"oscillator_frequency" : 												{
+													"value" : 185.800000000000011
+												}
+
+											}
+,
 											"pco_reset_mixer" : 											{
 
 											}
 
 										}
 ,
-										"gentilde_obj_28/rate" : 										{
-											"value" : 1.0
+										"listen_4" : 										{
+											"value" : 0.054
 										}
 ,
-										"gentilde_obj_74/run" : 										{
+										"run_4" : 										{
 											"value" : 0.0
 										}
 ,
-										"gentilde_obj_74/sync" : 										{
+										"listen_3" : 										{
+											"value" : 0.265
+										}
+,
+										"run_3" : 										{
 											"value" : 0.0
 										}
 ,
-										"listen" : 										{
-											"value" : 0.0
-										}
-,
-										"gentilde_obj_114/sync" : 										{
-											"value" : 0.0
-										}
-,
-										"gentilde_obj_74/rate" : 										{
-											"value" : 1.0
-										}
-,
-										"gentilde_obj_114/rate" : 										{
-											"value" : 1.0
-										}
-,
-										"gentilde_obj_52/rate" : 										{
-											"value" : 1.0
-										}
-,
-										"rate_4" : 										{
-											"value" : 1.03
-										}
-,
-										"gentilde_obj_28/run" : 										{
-											"value" : 0.0
-										}
-,
-										"rate_1" : 										{
-											"value" : 1.42
-										}
-,
-										"gentilde_obj_114/run" : 										{
-											"value" : 0.0
-										}
-,
-										"rate_3" : 										{
-											"value" : 1.35
+										"__presetid" : "pco.4voice",
+										"listen_2" : 										{
+											"value" : 0.177
 										}
 ,
 										"rate_2" : 										{
-											"value" : 1.2
+											"value" : 2.24
 										}
 ,
-										"__presetid" : "pco.4voice"
+										"run_2" : 										{
+											"value" : 0.0
+										}
+,
+										"listen_1" : 										{
+											"value" : 0.266
+										}
+,
+										"rate_1" : 										{
+											"value" : 1.63
+										}
+,
+										"rate_3" : 										{
+											"value" : 3.340000000000001
+										}
+,
+										"rate_4" : 										{
+											"value" : 1.44
+										}
+,
+										"run_1" : 										{
+											"value" : 0.0
+										}
+
 									}
 ,
 									"fileref" : 									{
@@ -1119,118 +1006,105 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "p_obj-115/oscillator_frequency",
+					"attr" : "synth_2/oscillator_frequency",
 					"id" : "obj-6",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 326.0, 88.0, 150.0, 22.0 ]
+					"patching_rect" : [ 530.0, 88.0, 150.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "p_obj-115/output_gain",
+					"attr" : "synth_2/output_gain",
 					"id" : "obj-7",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 479.0, 88.0, 150.0, 22.0 ]
+					"patching_rect" : [ 683.0, 88.0, 150.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "p_obj-2/oscillator_frequency",
+					"attr" : "synth_1/oscillator_frequency",
 					"id" : "obj-8",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 326.0, 59.0, 150.0, 22.0 ]
+					"patching_rect" : [ 530.0, 59.0, 150.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "p_obj-2/output_gain",
+					"attr" : "synth_1/output_gain",
 					"id" : "obj-9",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 479.0, 59.0, 150.0, 22.0 ]
+					"patching_rect" : [ 683.0, 59.0, 150.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "p_obj-94/oscillator_frequency",
+					"attr" : "synth_3/oscillator_frequency",
 					"id" : "obj-10",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 326.0, 118.0, 150.0, 22.0 ]
+					"patching_rect" : [ 530.0, 118.0, 150.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "p_obj-94/output_gain",
+					"attr" : "synth_3/output_gain",
 					"id" : "obj-11",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 479.0, 118.0, 150.0, 22.0 ]
+					"patching_rect" : [ 683.0, 118.0, 150.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "p_obj-99/oscillator_frequency",
+					"attr" : "synth_4/oscillator_frequency",
 					"id" : "obj-12",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 326.0, 146.0, 150.0, 22.0 ]
+					"patching_rect" : [ 530.0, 146.0, 150.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "p_obj-99/output_gain",
+					"attr" : "synth_4/output_gain",
 					"id" : "obj-13",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 479.0, 146.0, 150.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "listen",
-					"id" : "obj-17",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 223.0, 150.0, 22.0 ]
+					"patching_rect" : [ 683.0, 146.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -1243,7 +1117,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 170.0, 59.0, 150.0, 22.0 ]
+					"patching_rect" : [ 374.0, 59.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -1256,7 +1130,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 170.0, 88.0, 150.0, 22.0 ]
+					"patching_rect" : [ 374.0, 88.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -1269,7 +1143,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 170.0, 118.0, 150.0, 22.0 ]
+					"patching_rect" : [ 374.0, 118.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -1282,13 +1156,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 170.0, 146.0, 150.0, 22.0 ]
+					"patching_rect" : [ 374.0, 146.0, 150.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "gentilde_obj_114/run",
+					"attr" : "run_1",
 					"displaymode" : 8,
 					"id" : "obj-22",
 					"maxclass" : "attrui",
@@ -1296,13 +1170,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 59.0, 150.0, 22.0 ]
+					"patching_rect" : [ 63.0, 59.0, 150.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "gentilde_obj_28/run",
+					"attr" : "run_3",
 					"displaymode" : 8,
 					"id" : "obj-23",
 					"maxclass" : "attrui",
@@ -1310,13 +1184,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 118.0, 150.0, 22.0 ]
+					"patching_rect" : [ 63.0, 118.0, 150.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "gentilde_obj_52/run",
+					"attr" : "run_4",
 					"displaymode" : 8,
 					"id" : "obj-24",
 					"maxclass" : "attrui",
@@ -1324,13 +1198,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 146.0, 150.0, 22.0 ]
+					"patching_rect" : [ 63.0, 146.0, 150.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"attr" : "gentilde_obj_74/run",
+					"attr" : "run_2",
 					"displaymode" : 8,
 					"id" : "obj-25",
 					"maxclass" : "attrui",
@@ -1338,7 +1212,46 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 88.0, 150.0, 22.0 ]
+					"patching_rect" : [ 63.0, 88.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "listen_1",
+					"id" : "obj-3",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 220.0, 59.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "listen_2",
+					"id" : "obj-27",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 220.0, 88.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "listen_3",
+					"id" : "obj-28",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 220.0, 118.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -1398,13 +1311,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -1489,6 +1395,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
