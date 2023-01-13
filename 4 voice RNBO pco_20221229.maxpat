@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 243.0, 100.0, 1024.0, 924.0 ],
+		"rect" : [ 360.0, 100.0, 1024.0, 924.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 581.0, 312.0, 50.0, 22.0 ]
+					"patching_rect" : [ 620.75, 312.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -73,7 +73,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 530.0, 312.0, 50.0, 22.0 ]
+					"patching_rect" : [ 556.5, 312.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -86,7 +86,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 479.0, 312.0, 50.0, 22.0 ]
+					"patching_rect" : [ 492.25, 312.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -110,8 +110,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 428.0, 276.0, 223.0, 22.0 ],
-					"text" : "route rate1 rate2 rate3 rate4"
+					"patching_rect" : [ 428.0, 276.0, 276.0, 22.0 ],
+					"text" : "route act_rate_1 act_rate_2 act_rate_3 act_rate_4"
 				}
 
 			}
@@ -144,7 +144,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 428.0, 45.0, 45.0 ]
+					"patching_rect" : [ 257.0, 466.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -157,7 +157,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 257.5, 271.0, 48.0, 136.0 ],
+					"patching_rect" : [ 257.0, 304.0, 48.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -184,12 +184,18 @@
 ,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
+					"numoutlets" : 4,
 					"outletInfo" : 					{
 						"IOInfo" : [ 							{
 								"type" : "signal",
 								"index" : 1,
 								"tag" : "out1",
+								"comment" : ""
+							}
+, 							{
+								"type" : "signal",
+								"index" : 2,
+								"tag" : "out2",
 								"comment" : ""
 							}
 , 							{
@@ -201,179 +207,11 @@
  ]
 					}
 ,
-					"outlettype" : [ "signal", "int", "list" ],
+					"outlettype" : [ "signal", "signal", "int", "list" ],
 					"patching_rect" : [ 259.0, 223.0, 100.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"rate_1" : 						{
-							"label" : "rate_1",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"rate_4" : 						{
-							"label" : "rate_4",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"rate_2" : 						{
-							"label" : "rate_2",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"rate_3" : 						{
-							"label" : "rate_3",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"run_1" : 						{
-							"label" : "run_1",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"listen_1" : 						{
-							"label" : "listen_1",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"run_2" : 						{
-							"label" : "run_2",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"listen_2" : 						{
-							"label" : "listen_2",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"run_3" : 						{
-							"label" : "run_3",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"run_4" : 						{
-							"label" : "run_4",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"listen_3" : 						{
-							"label" : "listen_3",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"listen_4" : 						{
-							"label" : "listen_4",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_1/oscillator_frequency" : 						{
-							"label" : "oscillator_frequency",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_1/output_gain" : 						{
-							"label" : "output_gain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_1/env.lpg/res" : 						{
-							"label" : "res",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_1/env.lpg/vca_ness" : 						{
-							"label" : "vca_ness",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_1/env.lpg/offset" : 						{
-							"label" : "offset",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_2/oscillator_frequency" : 						{
-							"label" : "oscillator_frequency",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_2/output_gain" : 						{
-							"label" : "output_gain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_2/env.lpg/res" : 						{
-							"label" : "res",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_2/env.lpg/vca_ness" : 						{
-							"label" : "vca_ness",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_2/env.lpg/offset" : 						{
-							"label" : "offset",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_3/oscillator_frequency" : 						{
-							"label" : "oscillator_frequency",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_3/output_gain" : 						{
-							"label" : "output_gain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"synth_3/env.lpg/res" : 						{
 							"label" : "res",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_3/env.lpg/vca_ness" : 						{
-							"label" : "vca_ness",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_3/env.lpg/offset" : 						{
-							"label" : "offset",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_4/oscillator_frequency" : 						{
-							"label" : "oscillator_frequency",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"synth_4/output_gain" : 						{
-							"label" : "output_gain",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -384,14 +222,182 @@
 							"parsestring" : ""
 						}
 ,
+						"rate_1" : 						{
+							"label" : "rate_1",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"listen_2" : 						{
+							"label" : "listen_2",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_1/oscillator_frequency" : 						{
+							"label" : "oscillator_frequency",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_2/oscillator_frequency" : 						{
+							"label" : "oscillator_frequency",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_3/oscillator_frequency" : 						{
+							"label" : "oscillator_frequency",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"rate_3" : 						{
+							"label" : "rate_3",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_4/oscillator_frequency" : 						{
+							"label" : "oscillator_frequency",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"listen_1" : 						{
+							"label" : "listen_1",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"listen_3" : 						{
+							"label" : "listen_3",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_1/env.lpg/vca_ness" : 						{
+							"label" : "vca_ness",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_2/env.lpg/vca_ness" : 						{
+							"label" : "vca_ness",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_3/env.lpg/vca_ness" : 						{
+							"label" : "vca_ness",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"synth_4/env.lpg/vca_ness" : 						{
 							"label" : "vca_ness",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
+						"rate_4" : 						{
+							"label" : "rate_4",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"run_3" : 						{
+							"label" : "run_3",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_1/output_gain" : 						{
+							"label" : "output_gain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_2/output_gain" : 						{
+							"label" : "output_gain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_3/output_gain" : 						{
+							"label" : "output_gain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"rate_2" : 						{
+							"label" : "rate_2",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_4/output_gain" : 						{
+							"label" : "output_gain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"run_2" : 						{
+							"label" : "run_2",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"listen_4" : 						{
+							"label" : "listen_4",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_1/env.lpg/offset" : 						{
+							"label" : "offset",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_2/env.lpg/offset" : 						{
+							"label" : "offset",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_3/env.lpg/offset" : 						{
+							"label" : "offset",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"synth_4/env.lpg/offset" : 						{
 							"label" : "offset",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"run_1" : 						{
+							"label" : "run_1",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"run_4" : 						{
+							"label" : "run_4",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_1/env.lpg/res" : 						{
+							"label" : "res",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"synth_2/env.lpg/res" : 						{
+							"label" : "res",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -513,7 +519,7 @@
 									}
 ,
 									"output_gain" : 									{
-										"value" : -14.0
+										"value" : 0.0
 									}
 ,
 									"oscillator_frequency" : 									{
@@ -561,7 +567,7 @@
 									}
 ,
 									"output_gain" : 									{
-										"value" : -14.0
+										"value" : 0.0
 									}
 ,
 									"oscillator_frequency" : 									{
@@ -613,7 +619,7 @@
 									}
 ,
 									"output_gain" : 									{
-										"value" : -14.0
+										"value" : 0.0
 									}
 ,
 									"oscillator_frequency" : 									{
@@ -657,7 +663,7 @@
 									}
 ,
 									"output_gain" : 									{
-										"value" : -14.0
+										"value" : 0.0
 									}
 ,
 									"oscillator_frequency" : 									{
@@ -673,11 +679,11 @@
 							}
 ,
 							"listen_4" : 							{
-								"value" : 0.054
+								"value" : 0.016
 							}
 ,
 							"run_4" : 							{
-								"value" : 0.0
+								"value" : 1.0
 							}
 ,
 							"listen_3" : 							{
@@ -685,7 +691,7 @@
 							}
 ,
 							"run_3" : 							{
-								"value" : 0.0
+								"value" : 1.0
 							}
 ,
 							"__presetid" : "pco.4voice",
@@ -698,7 +704,7 @@
 							}
 ,
 							"run_2" : 							{
-								"value" : 0.0
+								"value" : 1.0
 							}
 ,
 							"listen_1" : 							{
@@ -706,7 +712,7 @@
 							}
 ,
 							"rate_1" : 							{
-								"value" : 1.63
+								"value" : 0.4
 							}
 ,
 							"rate_3" : 							{
@@ -714,11 +720,11 @@
 							}
 ,
 							"rate_4" : 							{
-								"value" : 1.44
+								"value" : 1.386
 							}
 ,
 							"run_1" : 							{
-								"value" : 0.0
+								"value" : 1.0
 							}
 
 						}
@@ -775,7 +781,7 @@
 												}
 ,
 												"output_gain" : 												{
-													"value" : -14.0
+													"value" : 0.0
 												}
 ,
 												"oscillator_frequency" : 												{
@@ -823,7 +829,7 @@
 												}
 ,
 												"output_gain" : 												{
-													"value" : -14.0
+													"value" : 0.0
 												}
 ,
 												"oscillator_frequency" : 												{
@@ -875,7 +881,7 @@
 												}
 ,
 												"output_gain" : 												{
-													"value" : -14.0
+													"value" : 0.0
 												}
 ,
 												"oscillator_frequency" : 												{
@@ -919,7 +925,7 @@
 												}
 ,
 												"output_gain" : 												{
-													"value" : -14.0
+													"value" : 0.0
 												}
 ,
 												"oscillator_frequency" : 												{
@@ -935,11 +941,11 @@
 										}
 ,
 										"listen_4" : 										{
-											"value" : 0.054
+											"value" : 0.016
 										}
 ,
 										"run_4" : 										{
-											"value" : 0.0
+											"value" : 1.0
 										}
 ,
 										"listen_3" : 										{
@@ -947,7 +953,7 @@
 										}
 ,
 										"run_3" : 										{
-											"value" : 0.0
+											"value" : 1.0
 										}
 ,
 										"__presetid" : "pco.4voice",
@@ -960,7 +966,7 @@
 										}
 ,
 										"run_2" : 										{
-											"value" : 0.0
+											"value" : 1.0
 										}
 ,
 										"listen_1" : 										{
@@ -968,7 +974,7 @@
 										}
 ,
 										"rate_1" : 										{
-											"value" : 1.63
+											"value" : 0.4
 										}
 ,
 										"rate_3" : 										{
@@ -976,11 +982,11 @@
 										}
 ,
 										"rate_4" : 										{
-											"value" : 1.44
+											"value" : 1.386
 										}
 ,
 										"run_1" : 										{
-											"value" : 0.0
+											"value" : 1.0
 										}
 
 									}
@@ -1259,29 +1265,27 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-1", 2 ]
+					"source" : [ "obj-1", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-1", 1 ]
+					"source" : [ "obj-1", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
+					"source" : [ "obj-1", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
