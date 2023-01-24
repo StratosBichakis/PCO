@@ -210,68 +210,8 @@
 					"outlettype" : [ "signal", "signal", "int", "list" ],
 					"patching_rect" : [ 259.0, 223.0, 141.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"listen_2" : 						{
-							"label" : "listen_2",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"bell/duration" : 						{
-							"label" : "duration",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"bell[2]/output_gain" : 						{
 							"label" : "output_gain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"rate_3" : 						{
-							"label" : "rate_3",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"bell[3]/frequency" : 						{
-							"label" : "frequency",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"listen_4" : 						{
-							"label" : "listen_4",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"bell[1]/duration" : 						{
-							"label" : "duration",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"bell[3]/output_gain" : 						{
-							"label" : "output_gain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"rate_1" : 						{
-							"label" : "rate_1",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"listen_3" : 						{
-							"label" : "listen_3",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"bell/frequency" : 						{
-							"label" : "frequency",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -282,14 +222,44 @@
 							"parsestring" : ""
 						}
 ,
+						"listen_2" : 						{
+							"label" : "listen_2",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"bell[2]/frequency" : 						{
+							"label" : "frequency",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"bell[3]/output_gain" : 						{
+							"label" : "output_gain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"listen_4" : 						{
+							"label" : "listen_4",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"rate_2" : 						{
 							"label" : "rate_2",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"listen_1" : 						{
-							"label" : "listen_1",
+						"bell[3]/duration" : 						{
+							"label" : "duration",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"bell[3]/frequency" : 						{
+							"label" : "frequency",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -300,13 +270,13 @@
 							"parsestring" : ""
 						}
 ,
-						"bell[1]/frequency" : 						{
-							"label" : "frequency",
+						"listen_1" : 						{
+							"label" : "listen_1",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"bell[3]/duration" : 						{
+						"bell/duration" : 						{
 							"label" : "duration",
 							"isEnum" : 0,
 							"parsestring" : ""
@@ -318,13 +288,43 @@
 							"parsestring" : ""
 						}
 ,
+						"bell/frequency" : 						{
+							"label" : "frequency",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"rate_1" : 						{
+							"label" : "rate_1",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"bell[1]/output_gain" : 						{
 							"label" : "output_gain",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"bell[2]/frequency" : 						{
+						"bell[1]/duration" : 						{
+							"label" : "duration",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"listen_3" : 						{
+							"label" : "listen_3",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"rate_3" : 						{
+							"label" : "rate_3",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"bell[1]/frequency" : 						{
 							"label" : "frequency",
 							"isEnum" : 0,
 							"parsestring" : ""
@@ -394,7 +394,7 @@
 ,
 								"bell[3]" : 								{
 									"duration" : 									{
-										"value" : 0.5
+										"value" : 3.530000000000001
 									}
 ,
 									"__sps" : 									{
@@ -461,7 +461,7 @@
 									}
 ,
 									"frequency" : 									{
-										"value" : 631.0
+										"value" : 723.0
 									}
 ,
 									"output_gain" : 									{
@@ -480,7 +480,7 @@
 ,
 								"bell[1]" : 								{
 									"duration" : 									{
-										"value" : 0.5
+										"value" : 4.0
 									}
 ,
 									"__sps" : 									{
@@ -558,7 +558,7 @@
 ,
 								"bell[2]" : 								{
 									"duration" : 									{
-										"value" : 0.5
+										"value" : 4.0
 									}
 ,
 									"__sps" : 									{
@@ -625,7 +625,7 @@
 									}
 ,
 									"frequency" : 									{
-										"value" : 631.0
+										"value" : 579.0
 									}
 ,
 									"output_gain" : 									{
@@ -719,11 +719,11 @@
 							}
 ,
 							"listen_4" : 							{
-								"value" : 0.0
+								"value" : 0.03024
 							}
 ,
 							"run_4" : 							{
-								"value" : 0.0
+								"value" : 1.0
 							}
 ,
 							"listen_3" : 							{
@@ -731,40 +731,40 @@
 							}
 ,
 							"run_3" : 							{
-								"value" : 0.0
+								"value" : 1.0
 							}
 ,
 							"rate_2" : 							{
-								"value" : 1.91
+								"value" : 6.0
 							}
 ,
 							"__presetid" : "pulse.4voice_bells",
 							"listen_2" : 							{
-								"value" : 0.81
+								"value" : 0.889
 							}
 ,
 							"run_2" : 							{
-								"value" : 0.0
+								"value" : 1.0
 							}
 ,
 							"rate_1" : 							{
-								"value" : 4.600000000000001
+								"value" : 1.6
 							}
 ,
 							"listen_1" : 							{
-								"value" : 0.78
+								"value" : 0.946
 							}
 ,
 							"rate_3" : 							{
-								"value" : 1.0
+								"value" : 1.31
 							}
 ,
 							"rate_4" : 							{
-								"value" : 1.0
+								"value" : 1.8
 							}
 ,
 							"run_1" : 							{
-								"value" : 0.0
+								"value" : 1.0
 							}
 
 						}
@@ -792,7 +792,7 @@
 ,
 											"bell[3]" : 											{
 												"duration" : 												{
-													"value" : 0.5
+													"value" : 3.530000000000001
 												}
 ,
 												"__sps" : 												{
@@ -859,7 +859,7 @@
 												}
 ,
 												"frequency" : 												{
-													"value" : 631.0
+													"value" : 723.0
 												}
 ,
 												"output_gain" : 												{
@@ -878,7 +878,7 @@
 ,
 											"bell[1]" : 											{
 												"duration" : 												{
-													"value" : 0.5
+													"value" : 4.0
 												}
 ,
 												"__sps" : 												{
@@ -956,7 +956,7 @@
 ,
 											"bell[2]" : 											{
 												"duration" : 												{
-													"value" : 0.5
+													"value" : 4.0
 												}
 ,
 												"__sps" : 												{
@@ -1023,7 +1023,7 @@
 												}
 ,
 												"frequency" : 												{
-													"value" : 631.0
+													"value" : 579.0
 												}
 ,
 												"output_gain" : 												{
@@ -1117,11 +1117,11 @@
 										}
 ,
 										"listen_4" : 										{
-											"value" : 0.0
+											"value" : 0.03024
 										}
 ,
 										"run_4" : 										{
-											"value" : 0.0
+											"value" : 1.0
 										}
 ,
 										"listen_3" : 										{
@@ -1129,40 +1129,40 @@
 										}
 ,
 										"run_3" : 										{
-											"value" : 0.0
+											"value" : 1.0
 										}
 ,
 										"rate_2" : 										{
-											"value" : 1.91
+											"value" : 6.0
 										}
 ,
 										"__presetid" : "pulse.4voice_bells",
 										"listen_2" : 										{
-											"value" : 0.81
+											"value" : 0.889
 										}
 ,
 										"run_2" : 										{
-											"value" : 0.0
+											"value" : 1.0
 										}
 ,
 										"rate_1" : 										{
-											"value" : 4.600000000000001
+											"value" : 1.6
 										}
 ,
 										"listen_1" : 										{
-											"value" : 0.78
+											"value" : 0.946
 										}
 ,
 										"rate_3" : 										{
-											"value" : 1.0
+											"value" : 1.31
 										}
 ,
 										"rate_4" : 										{
-											"value" : 1.0
+											"value" : 1.8
 										}
 ,
 										"run_1" : 										{
-											"value" : 0.0
+											"value" : 1.0
 										}
 
 									}
