@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 644.0, 100.0, 1050.0, 924.0 ],
+		"rect" : [ 906.0, 324.0, 694.0, 924.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -108,93 +108,15 @@
 					}
 ,
 					"outlettype" : [ "signal", "signal", "int", "list" ],
-					"patching_rect" : [ 70.0, 174.0, 269.0, 22.0 ],
+					"patching_rect" : [ 108.461540341377258, 183.890110373497009, 269.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"rate_2" : 						{
-							"label" : "rate_2",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"listen_1" : 						{
-							"label" : "listen_1",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"probability_3" : 						{
-							"label" : "probability_3",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"rate_4" : 						{
-							"label" : "rate_4",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"perc_2/duration" : 						{
-							"label" : "duration",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"probability_1" : 						{
-							"label" : "probability_1",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"perc_1/duration" : 						{
-							"label" : "duration",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"percc_4/duration" : 						{
-							"label" : "duration",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"perc_1/volume" : 						{
-							"label" : "volume",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"perc_2/volume" : 						{
-							"label" : "volume",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"perc_3/duration" : 						{
-							"label" : "duration",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"rate_3" : 						{
 							"label" : "rate_3",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"listen_4" : 						{
-							"label" : "listen_4",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"listen_2" : 						{
-							"label" : "listen_2",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"perc_3/volume" : 						{
+						"perc_2/volume" : 						{
 							"label" : "volume",
 							"isEnum" : 0,
 							"parsestring" : ""
@@ -206,14 +128,56 @@
 							"parsestring" : ""
 						}
 ,
+						"listen_4" : 						{
+							"label" : "listen_4",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"percc_4/duration" : 						{
+							"label" : "duration",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"percc_4/volume" : 						{
+							"label" : "volume",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"rate_1" : 						{
 							"label" : "rate_1",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"probability_4" : 						{
-							"label" : "probability_4",
+						"rate_2" : 						{
+							"label" : "rate_2",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"perc_2/duration" : 						{
+							"label" : "duration",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"probability_3" : 						{
+							"label" : "probability_3",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"perc_3/duration" : 						{
+							"label" : "duration",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"rate_4" : 						{
+							"label" : "rate_4",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -224,8 +188,44 @@
 							"parsestring" : ""
 						}
 ,
-						"percc_4/volume" : 						{
+						"probability_1" : 						{
+							"label" : "probability_1",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"perc_1/volume" : 						{
 							"label" : "volume",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"listen_1" : 						{
+							"label" : "listen_1",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"perc_1/duration" : 						{
+							"label" : "duration",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"perc_3/volume" : 						{
+							"label" : "volume",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"probability_4" : 						{
+							"label" : "probability_4",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"listen_2" : 						{
+							"label" : "listen_2",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -284,7 +284,7 @@
 						"embed" : 1,
 						"snapshot" : 						{
 							"probability_4" : 							{
-								"value" : 0.74
+								"value" : 1.0
 							}
 ,
 							"run_4" : 							{
@@ -304,11 +304,11 @@
 ,
 								"perc_3" : 								{
 									"duration" : 									{
-										"value" : 0.35
+										"value" : 2.77
 									}
 ,
 									"volume" : 									{
-										"value" : -19.900000000000002
+										"value" : 0.0
 									}
 
 								}
@@ -319,11 +319,11 @@
 ,
 								"perc_1" : 								{
 									"duration" : 									{
-										"value" : 0.81
+										"value" : 0.7
 									}
 ,
 									"volume" : 									{
-										"value" : -9.5
+										"value" : 0.0
 									}
 
 								}
@@ -348,11 +348,11 @@
 ,
 								"perc_2" : 								{
 									"duration" : 									{
-										"value" : 0.1
+										"value" : 0.37
 									}
 ,
 									"volume" : 									{
-										"value" : -25.100000000000001
+										"value" : 0.0
 									}
 
 								}
@@ -379,11 +379,11 @@
 ,
 								"percc_4" : 								{
 									"duration" : 									{
-										"value" : 0.9
+										"value" : 0.5
 									}
 ,
 									"volume" : 									{
-										"value" : -45.200000000000003
+										"value" : 0.0
 									}
 
 								}
@@ -399,15 +399,15 @@
 							}
 ,
 							"listen_4" : 							{
-								"value" : 1.0
+								"value" : 0.88
 							}
 ,
 							"rate_3" : 							{
-								"value" : 7.110000000000001
+								"value" : 5.780000000000001
 							}
 ,
 							"probability_3" : 							{
-								"value" : 1.0
+								"value" : 0.611
 							}
 ,
 							"run_3" : 							{
@@ -415,11 +415,11 @@
 							}
 ,
 							"listen_3" : 							{
-								"value" : 1.0
+								"value" : 0.21
 							}
 ,
 							"rate_2" : 							{
-								"value" : 6.276000000000002
+								"value" : 6.653000000000001
 							}
 ,
 							"run_2" : 							{
@@ -432,7 +432,7 @@
 							}
 ,
 							"rate_1" : 							{
-								"value" : 3.095000000000001
+								"value" : 1.9
 							}
 ,
 							"probability_1" : 							{
@@ -440,7 +440,7 @@
 							}
 ,
 							"rate_4" : 							{
-								"value" : 5.791000000000001
+								"value" : 2.506500000000001
 							}
 ,
 							"run_1" : 							{
@@ -448,11 +448,11 @@
 							}
 ,
 							"listen_1" : 							{
-								"value" : 1.0
+								"value" : 0.77
 							}
 ,
 							"probability_2" : 							{
-								"value" : 0.36
+								"value" : 0.7
 							}
 
 						}
@@ -470,7 +470,7 @@
 									"embed" : 1,
 									"snapshot" : 									{
 										"probability_4" : 										{
-											"value" : 0.74
+											"value" : 1.0
 										}
 ,
 										"run_4" : 										{
@@ -490,11 +490,11 @@
 ,
 											"perc_3" : 											{
 												"duration" : 												{
-													"value" : 0.35
+													"value" : 2.77
 												}
 ,
 												"volume" : 												{
-													"value" : -19.900000000000002
+													"value" : 0.0
 												}
 
 											}
@@ -505,11 +505,11 @@
 ,
 											"perc_1" : 											{
 												"duration" : 												{
-													"value" : 0.81
+													"value" : 0.7
 												}
 ,
 												"volume" : 												{
-													"value" : -9.5
+													"value" : 0.0
 												}
 
 											}
@@ -534,11 +534,11 @@
 ,
 											"perc_2" : 											{
 												"duration" : 												{
-													"value" : 0.1
+													"value" : 0.37
 												}
 ,
 												"volume" : 												{
-													"value" : -25.100000000000001
+													"value" : 0.0
 												}
 
 											}
@@ -565,11 +565,11 @@
 ,
 											"percc_4" : 											{
 												"duration" : 												{
-													"value" : 0.9
+													"value" : 0.5
 												}
 ,
 												"volume" : 												{
-													"value" : -45.200000000000003
+													"value" : 0.0
 												}
 
 											}
@@ -585,15 +585,15 @@
 										}
 ,
 										"listen_4" : 										{
-											"value" : 1.0
+											"value" : 0.88
 										}
 ,
 										"rate_3" : 										{
-											"value" : 7.110000000000001
+											"value" : 5.780000000000001
 										}
 ,
 										"probability_3" : 										{
-											"value" : 1.0
+											"value" : 0.611
 										}
 ,
 										"run_3" : 										{
@@ -601,11 +601,11 @@
 										}
 ,
 										"listen_3" : 										{
-											"value" : 1.0
+											"value" : 0.21
 										}
 ,
 										"rate_2" : 										{
-											"value" : 6.276000000000002
+											"value" : 6.653000000000001
 										}
 ,
 										"run_2" : 										{
@@ -618,7 +618,7 @@
 										}
 ,
 										"rate_1" : 										{
-											"value" : 3.095000000000001
+											"value" : 1.9
 										}
 ,
 										"probability_1" : 										{
@@ -626,7 +626,7 @@
 										}
 ,
 										"rate_4" : 										{
-											"value" : 5.791000000000001
+											"value" : 2.506500000000001
 										}
 ,
 										"run_1" : 										{
@@ -634,11 +634,11 @@
 										}
 ,
 										"listen_1" : 										{
-											"value" : 1.0
+											"value" : 0.77
 										}
 ,
 										"probability_2" : 										{
-											"value" : 0.36
+											"value" : 0.7
 										}
 
 									}
@@ -671,7 +671,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 70.0, 30.0, 185.0, 22.0 ]
+					"patching_rect" : [ 266.703306317329407, 26.703296542167664, 185.0, 22.0 ]
 				}
 
 			}
@@ -684,7 +684,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 70.0, 57.0, 185.0, 22.0 ]
+					"patching_rect" : [ 266.703306317329407, 53.703296542167664, 185.0, 22.0 ]
 				}
 
 			}
@@ -697,7 +697,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 266.0, 30.0, 150.0, 22.0 ]
+					"patching_rect" : [ 462.703306317329407, 26.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -710,7 +710,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 266.0, 57.0, 150.0, 22.0 ]
+					"patching_rect" : [ 462.703306317329407, 53.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -723,7 +723,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 71.0, 84.0, 184.0, 22.0 ]
+					"patching_rect" : [ 267.703306317329407, 80.703296542167664, 184.0, 22.0 ]
 				}
 
 			}
@@ -736,7 +736,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 70.0, 111.0, 185.0, 22.0 ]
+					"patching_rect" : [ 266.703306317329407, 107.703296542167664, 185.0, 22.0 ]
 				}
 
 			}
@@ -749,7 +749,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 266.0, 84.0, 150.0, 22.0 ]
+					"patching_rect" : [ 462.703306317329407, 80.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -762,7 +762,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 266.0, 111.0, 150.0, 22.0 ]
+					"patching_rect" : [ 462.703306317329407, 107.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -775,7 +775,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 428.0, 30.0, 150.0, 22.0 ]
+					"patching_rect" : [ 624.703306317329407, 26.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -788,7 +788,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 428.0, 57.0, 150.0, 22.0 ]
+					"patching_rect" : [ 624.703306317329407, 53.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -801,7 +801,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 428.0, 84.0, 150.0, 22.0 ]
+					"patching_rect" : [ 624.703306317329407, 80.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -814,7 +814,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 428.0, 111.0, 150.0, 22.0 ]
+					"patching_rect" : [ 624.703306317329407, 107.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -827,7 +827,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 592.0, 57.0, 150.0, 22.0 ]
+					"patching_rect" : [ 788.703306317329407, 53.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -840,7 +840,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 749.0, 57.0, 150.0, 22.0 ]
+					"patching_rect" : [ 945.703306317329407, 53.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -853,7 +853,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 592.0, 30.0, 150.0, 22.0 ]
+					"patching_rect" : [ 788.703306317329407, 26.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -866,7 +866,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 749.0, 30.0, 150.0, 22.0 ]
+					"patching_rect" : [ 945.703306317329407, 26.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -879,7 +879,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 592.0, 111.0, 150.0, 22.0 ]
+					"patching_rect" : [ 788.703306317329407, 107.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -892,7 +892,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 749.0, 111.0, 150.0, 22.0 ]
+					"patching_rect" : [ 945.703306317329407, 107.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -905,7 +905,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 592.0, 84.0, 150.0, 22.0 ]
+					"patching_rect" : [ 788.703306317329407, 80.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -918,7 +918,59 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 749.0, 84.0, 150.0, 22.0 ]
+					"patching_rect" : [ 945.703306317329407, 80.703296542167664, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "run_1",
+					"id" : "obj-24",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 108.461540341377258, 26.703296542167664, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "run_2",
+					"id" : "obj-25",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 108.461540341377258, 53.703296542167664, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "run_3",
+					"id" : "obj-26",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 108.461540341377258, 80.703296542167664, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "run_4",
+					"id" : "obj-27",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 108.461540341377258, 107.703296542167664, 150.0, 22.0 ]
 				}
 
 			}
@@ -1046,6 +1098,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 704.0, 100.0, 990.0, 929.0 ],
+		"rect" : [ 284.0, 100.0, 990.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -5973,7 +5973,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.0, 564.000003218650818, 45.0, 45.0 ]
+					"patching_rect" : [ 137.000000298023224, 564.000003218650818, 45.0, 45.0 ]
 				}
 
 			}
@@ -5986,7 +5986,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 131.5, 392.333333313465118, 48.0, 136.0 ],
+					"patching_rect" : [ 135.500000298023224, 392.333333313465118, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
