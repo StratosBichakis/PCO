@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "rnbo",
-		"rect" : [ 34.0, 100.0, 1652.0, 928.0 ],
+		"rect" : [ 68.0, 295.0, 2277.0, 928.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "pulse.4voice_perc.rnbopat",
+		"title" : "pulse.4voice_perc_web_params.rnbopat",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-182",
@@ -52,7 +52,7 @@
 						"text" : ""
 					}
 ,
-					"rnbo_serial" : 7,
+					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "message_obj-182",
 					"text" : "4800"
 				}
@@ -67,7 +67,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1706.0, 274.0, 56.0, 23.0 ],
 					"rnbo_classname" : "loadbang",
-					"rnbo_serial" : 2,
+					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "loadbang_obj-180",
 					"text" : "loadbang"
 				}
@@ -82,7 +82,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 427.704343020916099, 396.0, 42.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 16,
+					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "set_obj-170",
 					"text" : "set lag"
 				}
@@ -97,7 +97,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 802.496949374675751, 396.0, 42.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 15,
+					"rnbo_serial" : 2,
 					"rnbo_uniqueid" : "set_obj-169",
 					"text" : "set lag"
 				}
@@ -112,7 +112,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1180.0, 396.0, 42.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 14,
+					"rnbo_serial" : 3,
 					"rnbo_uniqueid" : "set_obj-164",
 					"text" : "set lag"
 				}
@@ -137,7 +137,7 @@
 						"value" : 4800.0
 					}
 ,
-					"rnbo_serial" : 19,
+					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "number_obj-73"
 				}
 
@@ -151,7 +151,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1695.0, 387.0, 42.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 13,
+					"rnbo_serial" : 4,
 					"rnbo_uniqueid" : "set_obj-51",
 					"text" : "set lag"
 				}
@@ -175,7 +175,7 @@
 						"interval" : 100.0
 					}
 ,
-					"rnbo_serial" : 4,
+					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "number~_obj-40",
 					"sig" : 0.0
 				}
@@ -199,7 +199,7 @@
 						"interval" : 100.0
 					}
 ,
-					"rnbo_serial" : 3,
+					"rnbo_serial" : 2,
 					"rnbo_uniqueid" : "number~_obj-34",
 					"sig" : 0.0
 				}
@@ -223,7 +223,7 @@
 						"interval" : 100.0
 					}
 ,
-					"rnbo_serial" : 2,
+					"rnbo_serial" : 3,
 					"rnbo_uniqueid" : "number~_obj-30",
 					"sig" : 0.0
 				}
@@ -247,7 +247,7 @@
 						"interval" : 100.0
 					}
 ,
-					"rnbo_serial" : 1,
+					"rnbo_serial" : 4,
 					"rnbo_uniqueid" : "number~_obj-27",
 					"sig" : 0.0
 				}
@@ -406,10 +406,10 @@
 						"maximum" : 1.0,
 						"order" : "",
 						"preset" : 0,
-						"value" : 0.0
+						"value" : 1.0
 					}
 ,
-					"rnbo_serial" : 1,
+					"rnbo_serial" : 2,
 					"rnbo_uniqueid" : "number_obj-167",
 					"triscale" : 0.0
 				}
@@ -424,7 +424,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1335.701802353064295, 497.934639573097229, 41.0, 23.0 ],
 					"rnbo_classname" : "/~",
-					"rnbo_serial" : 17,
+					"rnbo_serial" : 1,
 					"rnbo_uniqueid" : "/~_obj-115",
 					"text" : "/~ 2.5"
 				}
@@ -439,7 +439,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 961.868469019731265, 499.0, 41.0, 23.0 ],
 					"rnbo_classname" : "/~",
-					"rnbo_serial" : 15,
+					"rnbo_serial" : 2,
 					"rnbo_uniqueid" : "/~_obj-112",
 					"text" : "/~ 2.5"
 				}
@@ -454,7 +454,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 191.701802353064409, 493.0, 41.0, 23.0 ],
 					"rnbo_classname" : "/~",
-					"rnbo_serial" : 18,
+					"rnbo_serial" : 3,
 					"rnbo_uniqueid" : "/~_obj-90",
 					"text" : "/~ 2.5"
 				}
@@ -469,7 +469,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 566.701802353064409, 499.0, 41.0, 23.0 ],
 					"rnbo_classname" : "/~",
-					"rnbo_serial" : 16,
+					"rnbo_serial" : 4,
 					"rnbo_uniqueid" : "/~_obj-87",
 					"text" : "/~ 2.5"
 				}
@@ -634,7 +634,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1418.701802353064295, 692.0, 126.0, 23.0 ],
+					"patching_rect" : [ 1418.701802353064295, 692.0, 140.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"fromnormalized" : "",
@@ -654,7 +654,7 @@
 						"tonormalized" : ""
 					}
 ,
-					"rnbo_serial" : 1,
+					"rnbo_serial" : 24,
 					"rnbo_uniqueid" : "probability_4",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -1045,7 +1045,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param probability_4 1.",
+					"text" : "param probability_4 0.41",
 					"varname" : "probability_4"
 				}
 
@@ -1057,7 +1057,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1033.701802353064295, 692.0, 126.0, 23.0 ],
+					"patching_rect" : [ 1033.701802353064295, 692.0, 133.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"fromnormalized" : "",
@@ -1077,7 +1077,7 @@
 						"tonormalized" : ""
 					}
 ,
-					"rnbo_serial" : 2,
+					"rnbo_serial" : 23,
 					"rnbo_uniqueid" : "probability_3",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -1468,7 +1468,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param probability_3 1.",
+					"text" : "param probability_3 0.3",
 					"varname" : "probability_3"
 				}
 
@@ -1480,7 +1480,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 713.368469019731037, 692.0, 126.0, 23.0 ],
+					"patching_rect" : [ 713.368469019731037, 692.0, 133.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"fromnormalized" : "",
@@ -1500,7 +1500,7 @@
 						"tonormalized" : ""
 					}
 ,
-					"rnbo_serial" : 3,
+					"rnbo_serial" : 22,
 					"rnbo_uniqueid" : "probability_2",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -1891,7 +1891,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param probability_2 1.",
+					"text" : "param probability_2 0.5",
 					"varname" : "probability_2"
 				}
 
@@ -1903,7 +1903,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 368.868469019731037, 706.0, 126.0, 23.0 ],
+					"patching_rect" : [ 368.868469019731037, 706.0, 140.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"fromnormalized" : "",
@@ -1923,7 +1923,7 @@
 						"tonormalized" : ""
 					}
 ,
-					"rnbo_serial" : 4,
+					"rnbo_serial" : 21,
 					"rnbo_uniqueid" : "probability_1",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -2314,7 +2314,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param probability_1 1.",
+					"text" : "param probability_1 0.48",
 					"varname" : "probability_1"
 				}
 
@@ -2336,10 +2336,10 @@
 						"maximum" : 1.0,
 						"order" : "",
 						"preset" : 0,
-						"value" : 1.0
+						"value" : 0.41
 					}
 ,
-					"rnbo_serial" : 2,
+					"rnbo_serial" : 3,
 					"rnbo_uniqueid" : "number_obj-156"
 				}
 
@@ -2478,10 +2478,10 @@
 						"maximum" : 1.0,
 						"order" : "",
 						"preset" : 0,
-						"value" : 0.611
+						"value" : 0.3
 					}
 ,
-					"rnbo_serial" : 3,
+					"rnbo_serial" : 4,
 					"rnbo_uniqueid" : "number_obj-141"
 				}
 
@@ -2620,10 +2620,10 @@
 						"maximum" : 1.0,
 						"order" : "",
 						"preset" : 0,
-						"value" : 0.38
+						"value" : 0.5
 					}
 ,
-					"rnbo_serial" : 4,
+					"rnbo_serial" : 5,
 					"rnbo_uniqueid" : "number_obj-119"
 				}
 
@@ -2762,10 +2762,10 @@
 						"maximum" : 1.0,
 						"order" : "",
 						"preset" : 0,
-						"value" : 1.0
+						"value" : 0.48
 					}
 ,
-					"rnbo_serial" : 5,
+					"rnbo_serial" : 6,
 					"rnbo_uniqueid" : "number_obj-116"
 				}
 
@@ -9741,7 +9741,7 @@
 						}
 ,
 						"classnamespace" : "rnbo",
-						"rect" : [ 337.0, 113.0, 1051.0, 705.0 ],
+						"rect" : [ 408.0, 298.0, 1051.0, 705.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9779,7 +9779,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 652.0, 1103.0, 107.0, 23.0 ],
 									"rnbo_classname" : "scale",
-									"rnbo_serial" : 13,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "scale_obj-83",
 									"text" : "scale 0.01 5 -12 -3"
 								}
@@ -9794,7 +9794,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 707.0, 876.0, 111.0, 23.0 ],
 									"rnbo_classname" : "scale",
-									"rnbo_serial" : 10,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "scale_obj-82",
 									"text" : "scale 0.01 5 2. 0.22"
 								}
@@ -9809,7 +9809,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 712.0, 723.0, 126.0, 23.0 ],
 									"rnbo_classname" : "scale",
-									"rnbo_serial" : 9,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "scale_obj-79",
 									"text" : "scale 0.01 5 400 1600"
 								}
@@ -9828,7 +9828,7 @@
 										"length" : 0.0
 									}
 ,
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "unpack_obj-105",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -9956,7 +9956,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 646.75, 979.0, 132.0, 23.0 ],
 									"rnbo_classname" : "loadmess",
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "loadmess_obj-104",
 									"text" : "loadmess 4058 1 0.211"
 								}
@@ -9977,10 +9977,10 @@
 										"maximum" : "<none>",
 										"order" : "",
 										"preset" : 0,
-										"value" : 0.642
+										"value" : 1.0
 									}
 ,
-									"rnbo_serial" : 14,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "number_obj-101"
 								}
 
@@ -10034,10 +10034,10 @@
 										"maximum" : "<none>",
 										"order" : "",
 										"preset" : 0,
-										"value" : 614.028056112224476
+										"value" : 724.649298597194388
 									}
 ,
-									"rnbo_serial" : 15,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "number_obj-87"
 								}
 
@@ -10059,10 +10059,10 @@
 										"maximum" : 5.0,
 										"order" : "",
 										"preset" : 0,
-										"value" : 1.6825250501002
+										"value" : 1.518436873747495
 									}
 ,
-									"rnbo_serial" : 16,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "number_obj-85"
 								}
 
@@ -10076,7 +10076,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 377.514681816101074, 1125.0, 60.0, 23.0 ],
 									"rnbo_classname" : "dbtoa~",
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "dbtoa~_obj-77",
 									"text" : "dbtoa~ -6"
 								}
@@ -10091,7 +10091,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 180.0, 1131.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "*~_obj-76",
 									"text" : "*~"
 								}
@@ -10121,7 +10121,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 225.0, 819.0, 40.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 13,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "*~_obj-68",
 									"text" : "*~ 0.7"
 								}
@@ -10136,7 +10136,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 167.0, 819.0, 52.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 14,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "*~_obj-50",
 									"text" : "*~ -0.66"
 								}
@@ -10151,7 +10151,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 115.0, 819.0, 47.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 11,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "*~_obj-48",
 									"text" : "*~ 0.18"
 								}
@@ -10166,7 +10166,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 62.0, 819.0, 47.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 9,
+									"rnbo_serial" : 5,
 									"rnbo_uniqueid" : "*~_obj-8",
 									"text" : "*~ 0.45"
 								}
@@ -10179,7 +10179,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 366.5, 902.0, 192.0, 23.0 ],
+									"patching_rect" : [ 366.5, 902.0, 203.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"fromnormalized" : "",
@@ -10199,7 +10199,7 @@
 										"tonormalized" : ""
 									}
 ,
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "volume",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -10590,7 +10590,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param volume 0 @min -60 @max 6",
+									"text" : "param volume -23 @min -60 @max 6",
 									"varname" : "volume"
 								}
 
@@ -10715,7 +10715,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 758.0, 635.0, 209.0, 23.0 ],
+									"patching_rect" : [ 758.0, 635.0, 223.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"fromnormalized" : "",
@@ -10735,7 +10735,7 @@
 										"tonormalized" : ""
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "duration",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -11126,7 +11126,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param duration 1. @min 0.01 @max 5.",
+									"text" : "param duration 1.36 @min 0.01 @max 5.",
 									"varname" : "duration"
 								}
 
@@ -11144,7 +11144,7 @@
 										"length" : 0.0
 									}
 ,
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "unpack_obj-3",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -11294,7 +11294,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 634.0, 176.0, 220.0, 23.0 ],
 									"rnbo_classname" : "loadmess",
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "loadmess_obj-30",
 									"text" : "loadmess 0.198969 0.0768 0.553 0.325"
 								}
@@ -11314,7 +11314,7 @@
 										"list" : ""
 									}
 ,
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "pak_obj-12",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -11539,7 +11539,7 @@
 										"length" : 0.0
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "unpack_obj-29",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -11689,7 +11689,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 634.0, 28.0, 139.0, 23.0 ],
 									"rnbo_classname" : "loadmess",
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "loadmess_obj-26",
 									"text" : "loadmess 59 100 348 57"
 								}
@@ -11883,7 +11883,7 @@
 										"value" : 0.325
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "number_obj-63"
 								}
 
@@ -11921,7 +11921,7 @@
 										"value" : 57.0
 									}
 ,
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 5,
 									"rnbo_uniqueid" : "number_obj-65"
 								}
 
@@ -11969,7 +11969,7 @@
 										"hot" : 0
 									}
 ,
-									"rnbo_serial" : 5,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "+_obj-60",
 									"text" : "+ 800"
 								}
@@ -11984,7 +11984,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 266.0, 671.0, 80.0, 23.0 ],
 									"rnbo_classname" : "random",
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "random_obj-59",
 									"text" : "random 4800"
 								}
@@ -11999,7 +11999,7 @@
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
 									"patching_rect" : [ 180.0, 999.0, 89.0, 23.0 ],
 									"rnbo_classname" : "svf~",
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "svf~_obj-58",
 									"text" : "svf~ 200 0.001"
 								}
@@ -12109,7 +12109,7 @@
 										"value" : 0.553
 									}
 ,
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 6,
 									"rnbo_uniqueid" : "number_obj-53"
 								}
 
@@ -12147,7 +12147,7 @@
 										"value" : 348.0
 									}
 ,
-									"rnbo_serial" : 5,
+									"rnbo_serial" : 7,
 									"rnbo_uniqueid" : "number_obj-55"
 								}
 
@@ -12301,7 +12301,7 @@
 										"value" : 0.0768
 									}
 ,
-									"rnbo_serial" : 6,
+									"rnbo_serial" : 8,
 									"rnbo_uniqueid" : "number_obj-42"
 								}
 
@@ -12339,7 +12339,7 @@
 										"value" : 100.0
 									}
 ,
-									"rnbo_serial" : 7,
+									"rnbo_serial" : 9,
 									"rnbo_uniqueid" : "number_obj-44"
 								}
 
@@ -12463,7 +12463,7 @@
 										"value" : 0.198969
 									}
 ,
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 10,
 									"rnbo_uniqueid" : "number_obj-39"
 								}
 
@@ -12501,7 +12501,7 @@
 										"value" : 59.0
 									}
 ,
-									"rnbo_serial" : 9,
+									"rnbo_serial" : 11,
 									"rnbo_uniqueid" : "number_obj-36"
 								}
 
@@ -13625,7 +13625,7 @@
 									"patching_rect" : [ 236.0, 375.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param lag(1, max=100000, min=0);\nParam sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_2 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam run(1, max=1, min=0);\nParam lag(1, max=100000, min=0);\nParam offset(0, max=1, min=-1);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_2 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -14989,7 +14989,7 @@
 									"patching_rect" : [ 260.0, 514.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param offset(0, max=1, min=-1);\nParam lag(1, max=100000, min=0);\nParam sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_3 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam lag(1, max=100000, min=0);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_3 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -16353,7 +16353,7 @@
 									"patching_rect" : [ 216.0, 246.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param rate(1, max=5000, min=0);\nParam sync(0, max=1, min=0);\nParam run(1, max=1, min=0);\nParam lag(1, max=100000, min=0);\nParam offset(0, max=1, min=-1);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_2 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param sync(0, max=1, min=0);\nParam offset(0, max=1, min=-1);\nParam rate(1, max=5000, min=0);\nParam lag(1, max=100000, min=0);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_2 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -17717,7 +17717,7 @@
 									"patching_rect" : [ 195.0, 104.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param lag(1, max=100000, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam sync(0, max=1, min=0);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_2 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param run(1, max=1, min=0);\nParam sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam lag(1, max=100000, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_2 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -18410,7 +18410,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 225.0, 908.0, 67.0, 23.0 ],
 									"rnbo_classname" : "dbtoa~",
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "dbtoa~_obj-18",
 									"text" : "dbtoa~ -22"
 								}
@@ -18425,7 +18425,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 180.0, 960.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 6,
 									"rnbo_uniqueid" : "*~_obj-17",
 									"text" : "*~"
 								}
@@ -18440,7 +18440,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 180.0, 897.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 7,
 									"rnbo_uniqueid" : "*~_obj-13",
 									"text" : "*~"
 								}
@@ -19750,7 +19750,7 @@
 						}
 ,
 						"classnamespace" : "rnbo",
-						"rect" : [ 230.0, 100.0, 1206.0, 946.0 ],
+						"rect" : [ 234.0, 301.0, 1206.0, 946.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -19788,7 +19788,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 790.0, 981.0, 134.0, 23.0 ],
 									"rnbo_classname" : "scale",
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "scale_obj-83",
 									"text" : "scale 0.01 5 -3 -10 0.25"
 								}
@@ -19803,7 +19803,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 790.0, 1015.0, 60.0, 23.0 ],
 									"rnbo_classname" : "dbtoa~",
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "dbtoa~_obj-76",
 									"text" : "dbtoa~ -6"
 								}
@@ -19818,7 +19818,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 180.0, 1065.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 11,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "*~_obj-79",
 									"text" : "*~"
 								}
@@ -19833,7 +19833,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 211.0, 803.0, 40.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 7,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "*~_obj-73",
 									"text" : "*~ 0.4"
 								}
@@ -19848,7 +19848,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 166.0, 803.0, 40.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "*~_obj-75",
 									"text" : "*~ 0.4"
 								}
@@ -19863,7 +19863,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 120.0, 803.0, 40.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 9,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "*~_obj-77",
 									"text" : "*~ 0.4"
 								}
@@ -19878,7 +19878,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 67.0, 803.0, 40.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 10,
+									"rnbo_serial" : 5,
 									"rnbo_uniqueid" : "*~_obj-78",
 									"text" : "*~ 0.4"
 								}
@@ -20015,12 +20015,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-30",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 779.0, 628.0, 161.0, 37.0 ],
+									"patching_rect" : [ 779.0, 628.0, 223.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"fromnormalized" : "",
@@ -20040,7 +20039,7 @@
 										"tonormalized" : ""
 									}
 ,
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "duration",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -20431,7 +20430,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param duration 1 @min 0.01 @max 5.",
+									"text" : "param duration 0.66 @min 0.01 @max 5.",
 									"varname" : "duration"
 								}
 
@@ -20443,7 +20442,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 356.5, 898.0, 192.0, 23.0 ],
+									"patching_rect" : [ 356.5, 898.0, 213.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"fromnormalized" : "",
@@ -20463,7 +20462,7 @@
 										"tonormalized" : ""
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "volume",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -20854,7 +20853,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param volume 0 @min -60 @max 6",
+									"text" : "param volume -12.5 @min -60 @max 6",
 									"varname" : "volume"
 								}
 
@@ -22992,7 +22991,7 @@
 									"patching_rect" : [ 236.0, 375.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param lag(1, max=100000, min=0);\nParam offset(0, max=1, min=-1);\nParam run(1, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam sync(0, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_3 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param run(1, max=1, min=0);\nParam lag(1, max=100000, min=0);\nParam sync(0, max=1, min=0);\nParam offset(0, max=1, min=-1);\nParam rate(1, max=5000, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_3 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -24356,7 +24355,7 @@
 									"patching_rect" : [ 260.0, 514.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param lag(1, max=100000, min=0);\nParam sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam run(1, max=1, min=0);\nParam offset(0, max=1, min=-1);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_2 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param sync(0, max=1, min=0);\nParam run(1, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam lag(1, max=100000, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_2 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -25720,7 +25719,7 @@
 									"patching_rect" : [ 216.0, 246.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam lag(1, max=100000, min=0);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_2 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param lag(1, max=100000, min=0);\nParam sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam run(1, max=1, min=0);\nParam offset(0, max=1, min=-1);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_3 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -27084,7 +27083,7 @@
 									"patching_rect" : [ 195.0, 104.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param lag(1, max=100000, min=0);\nParam run(1, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam sync(0, max=1, min=0);\nParam offset(0, max=1, min=-1);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_2 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param offset(0, max=1, min=-1);\nParam lag(1, max=100000, min=0);\nParam rate(1, max=5000, min=0);\nParam sync(0, max=1, min=0);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_2 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -27992,7 +27991,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 225.0, 908.0, 67.0, 23.0 ],
 									"rnbo_classname" : "dbtoa~",
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "dbtoa~_obj-18",
 									"text" : "dbtoa~ -22"
 								}
@@ -28007,7 +28006,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 180.0, 960.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 6,
 									"rnbo_uniqueid" : "*~_obj-17",
 									"text" : "*~"
 								}
@@ -28022,7 +28021,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 180.0, 908.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 7,
 									"rnbo_uniqueid" : "*~_obj-13",
 									"text" : "*~"
 								}
@@ -29190,7 +29189,7 @@
 						}
 ,
 						"classnamespace" : "rnbo",
-						"rect" : [ 204.0, 116.0, 1063.0, 926.0 ],
+						"rect" : [ 34.0, 297.0, 1256.0, 1054.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -29228,7 +29227,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 774.0, 785.0, 133.0, 23.0 ],
 									"rnbo_classname" : "scale",
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "scale_obj-106",
 									"text" : "scale 0.01 5 4000 8000"
 								}
@@ -29247,7 +29246,7 @@
 										"length" : 0.0
 									}
 ,
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "unpack_obj-105",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -29375,7 +29374,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 558.0, 961.0, 132.0, 23.0 ],
 									"rnbo_classname" : "loadmess",
-									"rnbo_serial" : 7,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "loadmess_obj-104",
 									"text" : "loadmess 4058 1 0.211"
 								}
@@ -29394,7 +29393,7 @@
 										"length" : 0.0
 									}
 ,
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "unpack_obj-103",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -29544,7 +29543,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 631.0, 111.0, 125.0, 23.0 ],
 									"rnbo_classname" : "loadmess",
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "loadmess_obj-102",
 									"text" : "loadmess 9 5 2876 52"
 								}
@@ -29568,7 +29567,7 @@
 										"value" : 1.0
 									}
 ,
-									"rnbo_serial" : 20,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "number_obj-101"
 								}
 
@@ -29626,7 +29625,7 @@
 										"value" : 9.0
 									}
 ,
-									"rnbo_serial" : 19,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "number_obj-92"
 								}
 
@@ -29640,7 +29639,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 457.5, 61.0, 42.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 16,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "set_obj-93",
 									"text" : "set lag"
 								}
@@ -29665,7 +29664,7 @@
 										"value" : 5.0
 									}
 ,
-									"rnbo_serial" : 18,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "number_obj-90"
 								}
 
@@ -29679,7 +29678,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 468.5, 205.0, 42.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 15,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "set_obj-91",
 									"text" : "set lag"
 								}
@@ -29704,7 +29703,7 @@
 										"value" : 52.0
 									}
 ,
-									"rnbo_serial" : 17,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "number_obj-88"
 								}
 
@@ -29718,7 +29717,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 503.0, 470.0, 42.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 14,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "set_obj-89",
 									"text" : "set lag"
 								}
@@ -29739,10 +29738,10 @@
 										"maximum" : "<none>",
 										"order" : "",
 										"preset" : 0,
-										"value" : 4472.945891783567276
+										"value" : 4000.0
 									}
 ,
-									"rnbo_serial" : 16,
+									"rnbo_serial" : 5,
 									"rnbo_uniqueid" : "number_obj-87"
 								}
 
@@ -29764,10 +29763,10 @@
 										"maximum" : 5.0,
 										"order" : "",
 										"preset" : 0,
-										"value" : 0.17
+										"value" : 0.211
 									}
 ,
-									"rnbo_serial" : 21,
+									"rnbo_serial" : 6,
 									"rnbo_uniqueid" : "number_obj-85"
 								}
 
@@ -29791,7 +29790,7 @@
 										"value" : 2876.0
 									}
 ,
-									"rnbo_serial" : 12,
+									"rnbo_serial" : 7,
 									"rnbo_uniqueid" : "number_obj-83"
 								}
 
@@ -29805,7 +29804,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 503.0, 328.0, 42.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 13,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "set_obj-79",
 									"text" : "set lag"
 								}
@@ -29820,7 +29819,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 213.0, 788.0, 40.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 18,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "*~_obj-73",
 									"text" : "*~ 0.4"
 								}
@@ -29835,7 +29834,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 164.0, 788.0, 40.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 17,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "*~_obj-75",
 									"text" : "*~ 0.4"
 								}
@@ -29850,7 +29849,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 114.0, 788.0, 40.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 16,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "*~_obj-77",
 									"text" : "*~ 0.4"
 								}
@@ -29865,7 +29864,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 62.0, 788.0, 40.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 15,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "*~_obj-78",
 									"text" : "*~ 0.4"
 								}
@@ -29923,10 +29922,10 @@
 										"maximum" : "<none>",
 										"order" : "",
 										"preset" : 0,
-										"value" : 0.6
+										"value" : 0.01
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 8,
 									"rnbo_uniqueid" : "number_obj-70"
 								}
 
@@ -30051,7 +30050,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 409.0, 874.0, 182.0, 23.0 ],
+									"patching_rect" : [ 409.0, 874.0, 206.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"fromnormalized" : "",
@@ -30061,7 +30060,6 @@
 										"sendinit" : 1,
 										"preset" : 1,
 										"meta" : "",
-										"value" : 0.0,
 										"unit" : "",
 										"displayname" : "",
 										"steps" : 0.0,
@@ -30072,7 +30070,7 @@
 										"tonormalized" : ""
 									}
 ,
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "volume",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -30463,7 +30461,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param volume @min -60 @max 6",
+									"text" : "param volume -6.5 @min -60 @max 6",
 									"varname" : "volume"
 								}
 
@@ -30475,7 +30473,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 766.0, 588.0, 209.0, 23.0 ],
+									"patching_rect" : [ 766.0, 588.0, 223.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"fromnormalized" : "",
@@ -30495,7 +30493,7 @@
 										"tonormalized" : ""
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "duration",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -30886,7 +30884,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param duration 1. @min 0.01 @max 5.",
+									"text" : "param duration 0.01 @min 0.01 @max 5.",
 									"varname" : "duration"
 								}
 
@@ -30958,7 +30956,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 593.0, 448.0, 107.0, 23.0 ],
 									"rnbo_classname" : "scale",
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "scale_obj-3",
 									"text" : "scale 0. 1. 0.1 0.02"
 								}
@@ -30977,7 +30975,7 @@
 										"length" : 0.0
 									}
 ,
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "unpack_obj-50",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -31127,7 +31125,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 549.0, 207.0, 197.0, 23.0 ],
 									"rnbo_classname" : "loadmess",
-									"rnbo_serial" : 6,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "loadmess_obj-68",
 									"text" : "loadmess 0.347743 0.423 0 0.5455"
 								}
@@ -31146,7 +31144,7 @@
 										"length" : 0.0
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "unpack_obj-29",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -31296,7 +31294,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 511.0, 26.0, 160.0, 23.0 ],
 									"rnbo_classname" : "loadmess",
-									"rnbo_serial" : 5,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "loadmess_obj-26",
 									"text" : "loadmess 2190 3147 842 11"
 								}
@@ -31490,7 +31488,7 @@
 										"value" : 0.5455
 									}
 ,
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 9,
 									"rnbo_uniqueid" : "number_obj-63"
 								}
 
@@ -31504,7 +31502,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 426.0, 466.0, 51.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 5,
 									"rnbo_uniqueid" : "set_obj-64",
 									"text" : "set sync"
 								}
@@ -31528,7 +31526,7 @@
 										"value" : 11.0
 									}
 ,
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 10,
 									"rnbo_uniqueid" : "number_obj-65"
 								}
 
@@ -31542,7 +31540,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 332.0, 466.0, 48.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 6,
 									"rnbo_uniqueid" : "set_obj-66",
 									"text" : "set rate"
 								}
@@ -31557,7 +31555,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 260.0, 466.0, 45.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 7,
 									"rnbo_uniqueid" : "set_obj-67",
 									"text" : "set run"
 								}
@@ -31698,10 +31696,10 @@
 										"maximum" : 1.0,
 										"order" : "",
 										"preset" : 0,
-										"value" : 0.04660531718182
+										"value" : 0.095049264970489
 									}
 ,
-									"rnbo_serial" : 5,
+									"rnbo_serial" : 11,
 									"rnbo_uniqueid" : "number_obj-53"
 								}
 
@@ -31715,7 +31713,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 402.0, 324.0, 51.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 8,
 									"rnbo_uniqueid" : "set_obj-54",
 									"text" : "set sync"
 								}
@@ -31739,7 +31737,7 @@
 										"value" : 842.0
 									}
 ,
-									"rnbo_serial" : 6,
+									"rnbo_serial" : 12,
 									"rnbo_uniqueid" : "number_obj-55"
 								}
 
@@ -31753,7 +31751,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 308.0, 324.0, 48.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 5,
+									"rnbo_serial" : 9,
 									"rnbo_uniqueid" : "set_obj-56",
 									"text" : "set rate"
 								}
@@ -31768,7 +31766,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 236.0, 324.0, 45.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 6,
+									"rnbo_serial" : 10,
 									"rnbo_uniqueid" : "set_obj-57",
 									"text" : "set run"
 								}
@@ -31893,7 +31891,7 @@
 										"value" : 0.423
 									}
 ,
-									"rnbo_serial" : 7,
+									"rnbo_serial" : 13,
 									"rnbo_uniqueid" : "number_obj-42"
 								}
 
@@ -31907,7 +31905,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 383.0, 201.0, 51.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 7,
+									"rnbo_serial" : 11,
 									"rnbo_uniqueid" : "set_obj-43",
 									"text" : "set sync"
 								}
@@ -31931,7 +31929,7 @@
 										"value" : 3147.0
 									}
 ,
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 14,
 									"rnbo_uniqueid" : "number_obj-44"
 								}
 
@@ -31945,7 +31943,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 289.0, 201.0, 48.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 12,
 									"rnbo_uniqueid" : "set_obj-45",
 									"text" : "set rate"
 								}
@@ -31960,7 +31958,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 217.0, 201.0, 45.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 9,
+									"rnbo_serial" : 13,
 									"rnbo_uniqueid" : "set_obj-46",
 									"text" : "set run"
 								}
@@ -32055,7 +32053,7 @@
 										"value" : 0.347743
 									}
 ,
-									"rnbo_serial" : 9,
+									"rnbo_serial" : 15,
 									"rnbo_uniqueid" : "number_obj-39"
 								}
 
@@ -32069,7 +32067,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 361.0, 57.0, 51.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 10,
+									"rnbo_serial" : 14,
 									"rnbo_uniqueid" : "set_obj-37",
 									"text" : "set sync"
 								}
@@ -32093,7 +32091,7 @@
 										"value" : 2190.0
 									}
 ,
-									"rnbo_serial" : 10,
+									"rnbo_serial" : 16,
 									"rnbo_uniqueid" : "number_obj-36"
 								}
 
@@ -32107,7 +32105,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 267.0, 57.0, 48.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 11,
+									"rnbo_serial" : 15,
 									"rnbo_uniqueid" : "set_obj-23",
 									"text" : "set rate"
 								}
@@ -32122,7 +32120,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 195.0, 57.0, 45.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 12,
+									"rnbo_serial" : 16,
 									"rnbo_uniqueid" : "set_obj-15",
 									"text" : "set run"
 								}
@@ -33217,7 +33215,7 @@
 									"patching_rect" : [ 236.0, 375.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param run(1, max=1, min=0);\nParam lag(1, max=100000, min=0);\nParam sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_2 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param sync(0, max=1, min=0);\nParam offset(0, max=1, min=-1);\nParam lag(1, max=100000, min=0);\nParam run(1, max=1, min=0);\nParam rate(1, max=5000, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_3 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -34581,7 +34579,7 @@
 									"patching_rect" : [ 260.0, 514.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param sync(0, max=1, min=0);\nParam offset(0, max=1, min=-1);\nParam rate(1, max=5000, min=0);\nParam lag(1, max=100000, min=0);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_2 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param offset(0, max=1, min=-1);\nParam run(1, max=1, min=0);\nParam sync(0, max=1, min=0);\nParam lag(1, max=100000, min=0);\nParam rate(1, max=5000, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_2 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -35945,7 +35943,7 @@
 									"patching_rect" : [ 216.0, 246.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param lag(1, max=100000, min=0);\nParam run(1, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam sync(0, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_2 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param sync(0, max=1, min=0);\nParam run(1, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam lag(1, max=100000, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_2 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -37309,7 +37307,7 @@
 									"patching_rect" : [ 195.0, 104.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param sync(0, max=1, min=0);\nParam lag(1, max=100000, min=0);\nParam rate(1, max=5000, min=0);\nParam run(1, max=1, min=0);\nParam offset(0, max=1, min=-1);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_3 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param offset(0, max=1, min=-1);\nParam sync(0, max=1, min=0);\nParam lag(1, max=100000, min=0);\nParam rate(1, max=5000, min=0);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_3 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -38007,7 +38005,7 @@
 										"list" : ""
 									}
 ,
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "pak_obj-12",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -38232,7 +38230,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 180.0, 968.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 5,
 									"rnbo_uniqueid" : "*~_obj-17",
 									"text" : "*~"
 								}
@@ -38247,7 +38245,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 180.0, 908.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 6,
 									"rnbo_uniqueid" : "*~_obj-13",
 									"text" : "*~"
 								}
@@ -39749,7 +39747,7 @@
 						}
 ,
 						"classnamespace" : "rnbo",
-						"rect" : [ 38.0, 87.0, 1381.0, 905.0 ],
+						"rect" : [ 622.0, 319.0, 1381.0, 905.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -39787,7 +39785,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 229.0, 967.0, 46.0, 23.0 ],
 									"rnbo_classname" : "dbtoa~",
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "dbtoa~_obj-100",
 									"text" : "dbtoa~"
 								}
@@ -39802,7 +39800,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 179.0, 996.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "*~_obj-99",
 									"text" : "*~"
 								}
@@ -39817,7 +39815,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 781.0, 916.0, 130.0, 23.0 ],
 									"rnbo_classname" : "scale",
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "scale_obj-98",
 									"text" : "scale 0.01 5 2 -10 0.25"
 								}
@@ -39836,7 +39834,7 @@
 										"text" : ""
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "message_obj-97",
 									"text" : "3"
 								}
@@ -39870,7 +39868,7 @@
 										"length" : 0.0
 									}
 ,
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "unpack_obj-93",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -40020,7 +40018,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 724.0, 252.0, 145.0, 23.0 ],
 									"rnbo_classname" : "loadmess",
-									"rnbo_serial" : 7,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "loadmess_obj-94",
 									"text" : "loadmess 0.8274 0 0 0.26"
 								}
@@ -40189,7 +40187,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 17.0, 611.0, 172.0, 23.0 ],
 									"rnbo_classname" : "loadmess",
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "loadmess_obj-89",
 									"text" : "loadmess 0.092 0.77 0.98 0.15"
 								}
@@ -40214,7 +40212,7 @@
 										"value" : 3.0
 									}
 ,
-									"rnbo_serial" : 18,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "number_obj-85"
 								}
 
@@ -40228,7 +40226,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 523.399999999999977, 466.0, 42.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 15,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "set_obj-86",
 									"text" : "set lag"
 								}
@@ -40247,7 +40245,7 @@
 										"text" : ""
 									}
 ,
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "message_obj-81",
 									"text" : "1 0 0 0 6 0.5"
 								}
@@ -40266,7 +40264,7 @@
 										"value" : 0.0
 									}
 ,
-									"rnbo_serial" : 7,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "curve~_obj-78",
 									"text" : "curve~"
 								}
@@ -40281,7 +40279,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 130.5, 908.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 7,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "*~_obj-77",
 									"text" : "*~"
 								}
@@ -40322,7 +40320,7 @@
 										"value" : 0.15
 									}
 ,
-									"rnbo_serial" : 16,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "number_obj-74"
 								}
 
@@ -40336,7 +40334,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 214.5, 818.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 6,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "*~_obj-75",
 									"text" : "*~"
 								}
@@ -40362,7 +40360,7 @@
 										"value" : 0.98
 									}
 ,
-									"rnbo_serial" : 15,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "number_obj-72"
 								}
 
@@ -40376,7 +40374,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 171.5, 818.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 5,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "*~_obj-73",
 									"text" : "*~"
 								}
@@ -40402,7 +40400,7 @@
 										"value" : 0.092
 									}
 ,
-									"rnbo_serial" : 13,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "number_obj-70"
 								}
 
@@ -40427,7 +40425,7 @@
 										"value" : 0.77
 									}
 ,
-									"rnbo_serial" : 12,
+									"rnbo_serial" : 5,
 									"rnbo_uniqueid" : "number_obj-68"
 								}
 
@@ -40441,7 +40439,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 114.0, 818.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 5,
 									"rnbo_uniqueid" : "*~_obj-48",
 									"text" : "*~"
 								}
@@ -40456,7 +40454,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 62.0, 818.0, 31.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 6,
 									"rnbo_uniqueid" : "*~_obj-38",
 									"text" : "*~ 0"
 								}
@@ -40490,7 +40488,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 598.75, 375.0, 94.0, 23.0 ],
 									"rnbo_classname" : "scale",
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "scale_obj-35",
 									"text" : "scale 0. 1 0 0.48"
 								}
@@ -40616,7 +40614,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 766.0, 599.0, 206.0, 23.0 ],
+									"patching_rect" : [ 766.0, 599.0, 216.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"fromnormalized" : "",
@@ -40636,7 +40634,7 @@
 										"tonormalized" : ""
 									}
 ,
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "duration",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -41027,7 +41025,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param duration 1 @min 0.01 @max 5.",
+									"text" : "param duration 3.2 @min 0.01 @max 5.",
 									"varname" : "duration"
 								}
 
@@ -41039,7 +41037,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 356.5, 908.0, 192.0, 23.0 ],
+									"patching_rect" : [ 356.5, 908.0, 196.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"fromnormalized" : "",
@@ -41059,7 +41057,7 @@
 										"tonormalized" : ""
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "volume",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -41450,7 +41448,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param volume 0 @min -60 @max 6",
+									"text" : "param volume -2 @min -60 @max 6",
 									"varname" : "volume"
 								}
 
@@ -41479,7 +41477,7 @@
 										"length" : 0.0
 									}
 ,
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "unpack_obj-29",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -41629,7 +41627,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 634.0, 102.0, 166.0, 23.0 ],
 									"rnbo_classname" : "loadmess",
-									"rnbo_serial" : 5,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "loadmess_obj-26",
 									"text" : "loadmess 726 93.9 35.33 187"
 								}
@@ -41838,7 +41836,7 @@
 										"value" : 0.26
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 6,
 									"rnbo_uniqueid" : "number_obj-63"
 								}
 
@@ -41852,7 +41850,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 426.0, 466.0, 51.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "set_obj-64",
 									"text" : "set sync"
 								}
@@ -41876,7 +41874,7 @@
 										"value" : 187.0
 									}
 ,
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 7,
 									"rnbo_uniqueid" : "number_obj-65"
 								}
 
@@ -41890,7 +41888,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 332.0, 466.0, 48.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 3,
 									"rnbo_uniqueid" : "set_obj-66",
 									"text" : "set rate"
 								}
@@ -41905,7 +41903,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 260.0, 466.0, 45.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 3,
+									"rnbo_serial" : 4,
 									"rnbo_uniqueid" : "set_obj-67",
 									"text" : "set run"
 								}
@@ -42049,7 +42047,7 @@
 										"value" : 0.0
 									}
 ,
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 8,
 									"rnbo_uniqueid" : "number_obj-53"
 								}
 
@@ -42063,7 +42061,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 402.0, 324.0, 51.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 5,
 									"rnbo_uniqueid" : "set_obj-54",
 									"text" : "set sync"
 								}
@@ -42087,7 +42085,7 @@
 										"value" : 35.329999999999998
 									}
 ,
-									"rnbo_serial" : 5,
+									"rnbo_serial" : 9,
 									"rnbo_uniqueid" : "number_obj-55"
 								}
 
@@ -42101,7 +42099,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 308.0, 324.0, 48.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 5,
+									"rnbo_serial" : 6,
 									"rnbo_uniqueid" : "set_obj-56",
 									"text" : "set rate"
 								}
@@ -42116,7 +42114,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 236.0, 324.0, 45.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 6,
+									"rnbo_serial" : 7,
 									"rnbo_uniqueid" : "set_obj-57",
 									"text" : "set run"
 								}
@@ -42241,7 +42239,7 @@
 										"value" : 0.0
 									}
 ,
-									"rnbo_serial" : 6,
+									"rnbo_serial" : 10,
 									"rnbo_uniqueid" : "number_obj-42"
 								}
 
@@ -42255,7 +42253,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 383.0, 201.0, 51.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 7,
+									"rnbo_serial" : 8,
 									"rnbo_uniqueid" : "set_obj-43",
 									"text" : "set sync"
 								}
@@ -42279,7 +42277,7 @@
 										"value" : 93.900000000000006
 									}
 ,
-									"rnbo_serial" : 7,
+									"rnbo_serial" : 11,
 									"rnbo_uniqueid" : "number_obj-44"
 								}
 
@@ -42293,7 +42291,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 289.0, 201.0, 48.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 9,
 									"rnbo_uniqueid" : "set_obj-45",
 									"text" : "set rate"
 								}
@@ -42308,7 +42306,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 217.0, 201.0, 45.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 9,
+									"rnbo_serial" : 10,
 									"rnbo_uniqueid" : "set_obj-46",
 									"text" : "set run"
 								}
@@ -42403,7 +42401,7 @@
 										"value" : 0.8274
 									}
 ,
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 12,
 									"rnbo_uniqueid" : "number_obj-39"
 								}
 
@@ -42417,7 +42415,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 361.0, 57.0, 51.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 10,
+									"rnbo_serial" : 11,
 									"rnbo_uniqueid" : "set_obj-37",
 									"text" : "set sync"
 								}
@@ -42441,7 +42439,7 @@
 										"value" : 726.0
 									}
 ,
-									"rnbo_serial" : 9,
+									"rnbo_serial" : 13,
 									"rnbo_uniqueid" : "number_obj-36"
 								}
 
@@ -42455,7 +42453,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 267.0, 57.0, 48.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 11,
+									"rnbo_serial" : 12,
 									"rnbo_uniqueid" : "set_obj-23",
 									"text" : "set rate"
 								}
@@ -42470,7 +42468,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 195.0, 57.0, 45.0, 23.0 ],
 									"rnbo_classname" : "set",
-									"rnbo_serial" : 12,
+									"rnbo_serial" : 13,
 									"rnbo_uniqueid" : "set_obj-15",
 									"text" : "set run"
 								}
@@ -43565,7 +43563,7 @@
 									"patching_rect" : [ 236.0, 375.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param lag(1, max=100000, min=0);\nParam run(1, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam sync(0, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_3 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param lag(1, max=100000, min=0);\nParam sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_3 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -44929,7 +44927,7 @@
 									"patching_rect" : [ 260.0, 514.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam lag(1, max=100000, min=0);\nParam offset(0, max=1, min=-1);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_3 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param run(1, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam lag(1, max=100000, min=0);\nParam sync(0, max=1, min=0);\nParam offset(0, max=1, min=-1);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nselector_4 = selector(run, rate);\ncounter_5, counter_6, counter_7 = counter(selector_4, history_1, SAMPLERATE);\nadd_8 = history_2 + 1;\ndiv_9 = counter_5 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_6;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_8, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -46293,7 +46291,7 @@
 									"patching_rect" : [ 216.0, 246.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param run(1, max=1, min=0);\nParam sync(0, max=1, min=0);\nParam offset(0, max=1, min=-1);\nParam lag(1, max=100000, min=0);\nParam rate(1, max=5000, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_3 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param lag(1, max=100000, min=0);\nParam offset(0, max=1, min=-1);\nParam rate(1, max=5000, min=0);\nParam run(1, max=1, min=0);\nParam sync(0, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_3 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -47657,7 +47655,7 @@
 									"patching_rect" : [ 195.0, 104.0, 264.0, 23.0 ],
 									"rnbo_classname" : "gen~",
 									"rnbo_extra_attributes" : 									{
-										"gencode" : "Param run(1, max=1, min=0);\nParam sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam lag(1, max=100000, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_2 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_3 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
+										"gencode" : "Param lag(1, max=100000, min=0);\nParam run(1, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam offset(0, max=1, min=-1);\nParam sync(0, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nHistory history_3(0);\nadd_4 = history_3 + 1;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nadd_11 = history_2 + 1;\ngt_12 = add_11 > lag;\nselector_13 = selector(run, in1);\nmul_14 = sync * selector_13;\nselector_15 = selector(gt_12, mul_14);\nplusequals_16 = plusequals(selector_15, history_1);\nfloat_17 = float(0.22);\nmul_18 = float_17 * 2;\nrsub_19 = 1 - float_17;\ndiv_20 = mul_18 / rsub_19;\nadd_21 = div_20 + 1;\nmul_22 = div_9 * add_21;\nmul_23 = abs_10 * div_20;\nadd_24 = mul_23 + 1;\ndiv_25 = mul_22 / add_24;\nadd_26 = div_25 + plusequals_16;\nout4 = add_26;\ngt_27 = add_26 > 1;\nadd_28 = gt_27 + counter_7;\nout2 = add_28;\nplusequals_29 = plusequals(1, add_28);\nplusequals_30 = plusequals(1, add_28);\nlatch_31 = latch(add_4, add_28);\nrdiv_32 = samplerate / latch_31;\nout3 = rdiv_32;\nselector_33 = selector(run, rdiv_32);\ncounter_34, counter_35, counter_36 = counter(selector_33, add_28, 0);\ndiv_37 = counter_34 / samplerate;\nadd_38 = div_37 + offset;\nmod_39 = add_38 % 1.;\nout1 = mod_39;\nhistory_1_next_40 = fixdenorm(gt_27);\nhistory_2_next_41 = fixdenorm(plusequals_29);\nhistory_3_next_42 = fixdenorm(plusequals_30);\nhistory_1 = history_1_next_40;\nhistory_3 = history_3_next_42;\nhistory_2 = history_2_next_41;",
 										"geninlets" : 2,
 										"genoutlets" : 4
 									}
@@ -48355,7 +48353,7 @@
 										"list" : ""
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 1,
 									"rnbo_uniqueid" : "pak_obj-12",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -48565,7 +48563,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 225.0, 908.0, 67.0, 23.0 ],
 									"rnbo_classname" : "dbtoa~",
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "dbtoa~_obj-18",
 									"text" : "dbtoa~ -22"
 								}
@@ -48580,7 +48578,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 180.0, 960.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 7,
 									"rnbo_uniqueid" : "*~_obj-17",
 									"text" : "*~"
 								}
@@ -48595,7 +48593,7 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 180.0, 908.0, 29.5, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 8,
 									"rnbo_uniqueid" : "*~_obj-13",
 									"text" : "*~"
 								}
@@ -48614,7 +48612,7 @@
 										"value" : 0.0
 									}
 ,
-									"rnbo_serial" : 1,
+									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "curve~_obj-25",
 									"text" : "curve~"
 								}
@@ -49981,7 +49979,7 @@
 						"text" : "120"
 					}
 ,
-					"rnbo_serial" : 1,
+					"rnbo_serial" : 2,
 					"rnbo_uniqueid" : "message_obj-53",
 					"text" : "120"
 				}
@@ -50090,7 +50088,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1260.496949374675751, 58.0, 421.0, 23.0 ],
+					"patching_rect" : [ 1260.496949374675751, 58.0, 411.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"fromnormalized" : "",
@@ -50500,7 +50498,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param listen_4 0. @min 0 @max 1 @tonormalized (1-0.8)*value/(1-0.8*value)",
+					"text" : "param listen_4 1. @min 0 @max 1 @tonormalized (1-0.8)*value/(1-0.8*value)",
 					"varname" : "listen_4"
 				}
 
@@ -50922,7 +50920,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param listen_3 0. @min 0 @max 1 @tonormalized (1-0.8)*value/(1-0.8*value)",
+					"text" : "param listen_3 1. @min 0 @max 1 @tonormalized (1-0.8)*value/(1-0.8*value)",
 					"varname" : "listen_3"
 				}
 
@@ -51780,7 +51778,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 66.849223752816442, 394.0, 56.0, 23.0 ],
 					"rnbo_classname" : "loadbang",
-					"rnbo_serial" : 1,
+					"rnbo_serial" : 2,
 					"rnbo_uniqueid" : "loadbang_obj-125",
 					"text" : "loadbang"
 				}
@@ -52625,7 +52623,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param listen_2 0. @min 0 @max 1 @tonormalized (1-0.8)*value/(1-0.8*value)",
+					"text" : "param listen_2 1. @min 0 @max 1 @tonormalized (1-0.8)*value/(1-0.8*value)",
 					"varname" : "listen_2"
 				}
 
@@ -53166,7 +53164,7 @@
 						"text" : "39"
 					}
 ,
-					"rnbo_serial" : 2,
+					"rnbo_serial" : 3,
 					"rnbo_uniqueid" : "message_obj-101",
 					"text" : "39"
 				}
@@ -53185,7 +53183,7 @@
 						"text" : "38"
 					}
 ,
-					"rnbo_serial" : 3,
+					"rnbo_serial" : 4,
 					"rnbo_uniqueid" : "message_obj-96",
 					"text" : "38"
 				}
@@ -53204,7 +53202,7 @@
 						"text" : "37"
 					}
 ,
-					"rnbo_serial" : 4,
+					"rnbo_serial" : 5,
 					"rnbo_uniqueid" : "message_obj-77",
 					"text" : "37"
 				}
@@ -53223,7 +53221,7 @@
 						"text" : "36"
 					}
 ,
-					"rnbo_serial" : 5,
+					"rnbo_serial" : 6,
 					"rnbo_uniqueid" : "message_obj-76",
 					"text" : "36"
 				}
@@ -53282,7 +53280,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1565.0, 168.0, 205.0, 23.0 ],
+					"patching_rect" : [ 1565.0, 168.0, 218.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"fromnormalized" : "",
@@ -53302,7 +53300,7 @@
 						"tonormalized" : ""
 					}
 ,
-					"rnbo_serial" : 12,
+					"rnbo_serial" : 20,
 					"rnbo_uniqueid" : "rate_4",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -53693,7 +53691,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param rate_4 1. @min 0.01 @max 16.",
+					"text" : "param rate_4 6.41 @min 0.01 @max 16.",
 					"varname" : "rate_4"
 				}
 
@@ -53705,7 +53703,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1180.0, 168.0, 205.0, 23.0 ],
+					"patching_rect" : [ 1180.0, 168.0, 218.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"fromnormalized" : "",
@@ -53725,7 +53723,7 @@
 						"tonormalized" : ""
 					}
 ,
-					"rnbo_serial" : 13,
+					"rnbo_serial" : 19,
 					"rnbo_uniqueid" : "rate_3",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -54116,7 +54114,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param rate_3 1. @min 0.01 @max 16.",
+					"text" : "param rate_3 6.09 @min 0.01 @max 16.",
 					"varname" : "rate_3"
 				}
 
@@ -54128,7 +54126,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 794.0, 168.0, 205.0, 23.0 ],
+					"patching_rect" : [ 794.0, 168.0, 218.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"fromnormalized" : "",
@@ -54148,7 +54146,7 @@
 						"tonormalized" : ""
 					}
 ,
-					"rnbo_serial" : 14,
+					"rnbo_serial" : 18,
 					"rnbo_uniqueid" : "rate_2",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -54539,7 +54537,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param rate_2 1. @min 0.01 @max 16.",
+					"text" : "param rate_2 2.25 @min 0.01 @max 16.",
 					"varname" : "rate_2"
 				}
 
@@ -54551,7 +54549,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 412.0, 168.0, 205.0, 23.0 ],
+					"patching_rect" : [ 412.0, 168.0, 218.0, 23.0 ],
 					"rnbo_classname" : "param",
 					"rnbo_extra_attributes" : 					{
 						"fromnormalized" : "",
@@ -54571,7 +54569,7 @@
 						"tonormalized" : ""
 					}
 ,
-					"rnbo_serial" : 15,
+					"rnbo_serial" : 17,
 					"rnbo_uniqueid" : "rate_1",
 					"rnboinfo" : 					{
 						"needsInstanceInfo" : 1,
@@ -54962,7 +54960,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param rate_1 1. @min 0.01 @max 16.",
+					"text" : "param rate_1 8.32 @min 0.01 @max 16.",
 					"varname" : "rate_1"
 				}
 
@@ -55384,7 +55382,7 @@
 						"changesPatcherIO" : 0
 					}
 ,
-					"text" : "param listen_1 0. @min 0 @max 1 @tonormalized (1-0.8)*value/(1-0.8*value)",
+					"text" : "param listen_1 1. @min 0 @max 1 @tonormalized (1-0.8)*value/(1-0.8*value)",
 					"varname" : "listen_1"
 				}
 
@@ -55594,10 +55592,10 @@
 						"maximum" : "<none>",
 						"order" : "",
 						"preset" : 0,
-						"value" : 0.866666666666667
+						"value" : 1.068333333333333
 					}
 ,
-					"rnbo_serial" : 6,
+					"rnbo_serial" : 7,
 					"rnbo_uniqueid" : "number_obj-29",
 					"triscale" : 0.0
 				}
@@ -55711,7 +55709,7 @@
 						"value" : 1.0
 					}
 ,
-					"rnbo_serial" : 7,
+					"rnbo_serial" : 8,
 					"rnbo_uniqueid" : "number_obj-44",
 					"triscale" : 0.0
 				}
@@ -55732,10 +55730,10 @@
 						"maximum" : "<none>",
 						"order" : "",
 						"preset" : 0,
-						"value" : 0.866666666666667
+						"value" : 1.068333333333333
 					}
 ,
-					"rnbo_serial" : 8,
+					"rnbo_serial" : 9,
 					"rnbo_uniqueid" : "number_obj-45",
 					"triscale" : 0.0
 				}
@@ -55750,7 +55748,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1632.496949374675751, 340.0, 51.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 1,
+					"rnbo_serial" : 5,
 					"rnbo_uniqueid" : "set_obj-46",
 					"text" : "set sync"
 				}
@@ -55765,7 +55763,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1409.868469019731037, 340.0, 45.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 2,
+					"rnbo_serial" : 6,
 					"rnbo_uniqueid" : "set_obj-48",
 					"text" : "set run"
 				}
@@ -55780,7 +55778,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1470.0, 340.0, 48.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 3,
+					"rnbo_serial" : 7,
 					"rnbo_uniqueid" : "set_obj-49",
 					"text" : "set rate"
 				}
@@ -57531,8 +57529,7 @@
 									}
 
 								}
- ],
-							"autosave" : 0
+ ]
 						}
 
 					}
@@ -57545,7 +57542,7 @@
 					"patching_rect" : [ 1341.368469019731037, 427.333687544177906, 251.0, 23.0 ],
 					"rnbo_classname" : "gen~",
 					"rnbo_extra_attributes" : 					{
-						"gencode" : "Param lag(1, max=48000, min=1);\nParam run(1, max=1, min=0);\nParam sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nHistory history_1(0);\nHistory history_2(0);\nadd_3 = history_2 + 1;\ngt_4 = add_3 > lag;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nselector_11 = selector(run, in1);\nmul_12 = sync * selector_11;\nselector_13 = selector(gt_4, mul_12);\nplusequals_14 = plusequals(selector_13, history_1);\nfloat_15 = float(0.22);\nmul_16 = float_15 * 2;\nrsub_17 = 1 - float_15;\ndiv_18 = mul_16 / rsub_17;\nadd_19 = div_18 + 1;\nmul_20 = div_9 * add_19;\nmul_21 = abs_10 * div_18;\nadd_22 = mul_21 + 1;\ndiv_23 = mul_20 / add_22;\nadd_24 = div_23 + plusequals_14;\nout4 = add_24;\ngt_25 = add_24 > 1;\nadd_26 = gt_25 + counter_7;\nselector_27 = selector(gt_4, add_26);\nout2 = selector_27;\nplusequals_28 = plusequals(1, add_26);\nand_29 = add_26 && gt_4;\nlatch_30 = latch(add_3, and_29);\nrdiv_31 = samplerate / latch_30;\nout3 = rdiv_31;\nselector_32 = selector(run, rdiv_31);\ncounter_33, counter_34, counter_35 = counter(selector_32, add_26, 0);\nadd_36 = counter_33 + plusequals_14;\ndiv_37 = add_36 / samplerate;\nclamp_38 = clamp(div_37, 0., 1.);\nout1 = clamp_38;\nhistory_1_next_39 = fixdenorm(gt_25);\nhistory_2_next_40 = fixdenorm(plusequals_28);\nhistory_1 = history_1_next_39;\nhistory_2 = history_2_next_40;",
+						"gencode" : "Param lag(1, max=48000, min=1);\nParam sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nadd_3 = history_2 + 1;\ngt_4 = add_3 > lag;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nselector_11 = selector(run, in1);\nmul_12 = sync * selector_11;\nselector_13 = selector(gt_4, mul_12);\nplusequals_14 = plusequals(selector_13, history_1);\nfloat_15 = float(0.22);\nmul_16 = float_15 * 2;\nrsub_17 = 1 - float_15;\ndiv_18 = mul_16 / rsub_17;\nadd_19 = div_18 + 1;\nmul_20 = div_9 * add_19;\nmul_21 = abs_10 * div_18;\nadd_22 = mul_21 + 1;\ndiv_23 = mul_20 / add_22;\nadd_24 = div_23 + plusequals_14;\nout4 = add_24;\ngt_25 = add_24 > 1;\nadd_26 = gt_25 + counter_7;\nselector_27 = selector(gt_4, add_26);\nout2 = selector_27;\nplusequals_28 = plusequals(1, add_26);\nand_29 = add_26 && gt_4;\nlatch_30 = latch(add_3, and_29);\nrdiv_31 = samplerate / latch_30;\nout3 = rdiv_31;\nselector_32 = selector(run, rdiv_31);\ncounter_33, counter_34, counter_35 = counter(selector_32, add_26, 0);\nadd_36 = counter_33 + plusequals_14;\ndiv_37 = add_36 / samplerate;\nclamp_38 = clamp(div_37, 0., 1.);\nout1 = clamp_38;\nhistory_1_next_39 = fixdenorm(gt_25);\nhistory_2_next_40 = fixdenorm(plusequals_28);\nhistory_1 = history_1_next_39;\nhistory_2 = history_2_next_40;",
 						"geninlets" : 1,
 						"genoutlets" : 4
 					}
@@ -57727,10 +57724,10 @@
 						"maximum" : "<none>",
 						"order" : "",
 						"preset" : 0,
-						"value" : 0.963333333333334
+						"value" : 1.015
 					}
 ,
-					"rnbo_serial" : 9,
+					"rnbo_serial" : 10,
 					"rnbo_uniqueid" : "number_obj-9",
 					"triscale" : 0.0
 				}
@@ -57844,7 +57841,7 @@
 						"value" : 1.0
 					}
 ,
-					"rnbo_serial" : 10,
+					"rnbo_serial" : 11,
 					"rnbo_uniqueid" : "number_obj-19",
 					"triscale" : 0.0
 				}
@@ -57865,10 +57862,10 @@
 						"maximum" : "<none>",
 						"order" : "",
 						"preset" : 0,
-						"value" : 0.963333333333333
+						"value" : 1.015
 					}
 ,
-					"rnbo_serial" : 11,
+					"rnbo_serial" : 12,
 					"rnbo_uniqueid" : "number_obj-21",
 					"triscale" : 0.0
 				}
@@ -57883,7 +57880,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1247.496949374675751, 340.0, 51.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 4,
+					"rnbo_serial" : 8,
 					"rnbo_uniqueid" : "set_obj-22",
 					"text" : "set sync"
 				}
@@ -57898,7 +57895,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1024.868469019731037, 340.0, 45.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 5,
+					"rnbo_serial" : 9,
 					"rnbo_uniqueid" : "set_obj-23",
 					"text" : "set run"
 				}
@@ -57913,7 +57910,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1085.0, 340.0, 48.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 6,
+					"rnbo_serial" : 10,
 					"rnbo_uniqueid" : "set_obj-24",
 					"text" : "set rate"
 				}
@@ -59664,8 +59661,7 @@
 									}
 
 								}
- ],
-							"autosave" : 0
+ ]
 						}
 
 					}
@@ -59678,7 +59674,7 @@
 					"patching_rect" : [ 956.368469019731037, 427.333687544177906, 251.0, 23.0 ],
 					"rnbo_classname" : "gen~",
 					"rnbo_extra_attributes" : 					{
-						"gencode" : "Param sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam lag(1, max=48000, min=1);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nadd_3 = history_2 + 1;\ngt_4 = add_3 > lag;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nselector_11 = selector(run, in1);\nmul_12 = sync * selector_11;\nselector_13 = selector(gt_4, mul_12);\nplusequals_14 = plusequals(selector_13, history_1);\nfloat_15 = float(0.22);\nmul_16 = float_15 * 2;\nrsub_17 = 1 - float_15;\ndiv_18 = mul_16 / rsub_17;\nadd_19 = div_18 + 1;\nmul_20 = div_9 * add_19;\nmul_21 = abs_10 * div_18;\nadd_22 = mul_21 + 1;\ndiv_23 = mul_20 / add_22;\nadd_24 = div_23 + plusequals_14;\nout4 = add_24;\ngt_25 = add_24 > 1;\nadd_26 = gt_25 + counter_7;\nplusequals_27 = plusequals(1, add_26);\nselector_28 = selector(gt_4, add_26);\nout2 = selector_28;\nand_29 = add_26 && gt_4;\nlatch_30 = latch(add_3, and_29);\nrdiv_31 = samplerate / latch_30;\nout3 = rdiv_31;\nselector_32 = selector(run, rdiv_31);\ncounter_33, counter_34, counter_35 = counter(selector_32, add_26, 0);\nadd_36 = counter_33 + plusequals_14;\ndiv_37 = add_36 / samplerate;\nclamp_38 = clamp(div_37, 0., 1.);\nout1 = clamp_38;\nhistory_1_next_39 = fixdenorm(gt_25);\nhistory_2_next_40 = fixdenorm(plusequals_27);\nhistory_1 = history_1_next_39;\nhistory_2 = history_2_next_40;",
+						"gencode" : "Param sync(0, max=1, min=0);\nParam lag(1, max=48000, min=1);\nParam rate(1, max=5000, min=0);\nParam run(1, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nadd_3 = history_2 + 1;\ngt_4 = add_3 > lag;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nselector_11 = selector(run, in1);\nmul_12 = sync * selector_11;\nselector_13 = selector(gt_4, mul_12);\nplusequals_14 = plusequals(selector_13, history_1);\nfloat_15 = float(0.22);\nmul_16 = float_15 * 2;\nrsub_17 = 1 - float_15;\ndiv_18 = mul_16 / rsub_17;\nadd_19 = div_18 + 1;\nmul_20 = div_9 * add_19;\nmul_21 = abs_10 * div_18;\nadd_22 = mul_21 + 1;\ndiv_23 = mul_20 / add_22;\nadd_24 = div_23 + plusequals_14;\nout4 = add_24;\ngt_25 = add_24 > 1;\nadd_26 = gt_25 + counter_7;\nselector_27 = selector(gt_4, add_26);\nout2 = selector_27;\nplusequals_28 = plusequals(1, add_26);\nand_29 = add_26 && gt_4;\nlatch_30 = latch(add_3, and_29);\nrdiv_31 = samplerate / latch_30;\nout3 = rdiv_31;\nselector_32 = selector(run, rdiv_31);\ncounter_33, counter_34, counter_35 = counter(selector_32, add_26, 0);\nadd_36 = counter_33 + plusequals_14;\ndiv_37 = add_36 / samplerate;\nclamp_38 = clamp(div_37, 0., 1.);\nout1 = clamp_38;\nhistory_1_next_39 = fixdenorm(gt_25);\nhistory_2_next_40 = fixdenorm(plusequals_28);\nhistory_1 = history_1_next_39;\nhistory_2 = history_2_next_40;",
 						"geninlets" : 1,
 						"genoutlets" : 4
 					}
@@ -59860,10 +59856,10 @@
 						"maximum" : "<none>",
 						"order" : "",
 						"preset" : 0,
-						"value" : 0.775
+						"value" : 1.125
 					}
 ,
-					"rnbo_serial" : 12,
+					"rnbo_serial" : 13,
 					"rnbo_uniqueid" : "number_obj-8",
 					"triscale" : 0.0
 				}
@@ -59884,10 +59880,10 @@
 						"maximum" : "<none>",
 						"order" : "",
 						"preset" : 0,
-						"value" : 0.95
+						"value" : 1.04
 					}
 ,
-					"rnbo_serial" : 13,
+					"rnbo_serial" : 14,
 					"rnbo_uniqueid" : "number_obj-6",
 					"triscale" : 0.0
 				}
@@ -60067,10 +60063,10 @@
 						"maximum" : "<none>",
 						"order" : "",
 						"preset" : 0,
-						"value" : 0.775
+						"value" : 1.125
 					}
 ,
-					"rnbo_serial" : 14,
+					"rnbo_serial" : 15,
 					"rnbo_uniqueid" : "number_obj-67",
 					"triscale" : 0.0
 				}
@@ -60085,7 +60081,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 861.496949374675751, 340.0, 51.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 7,
+					"rnbo_serial" : 11,
 					"rnbo_uniqueid" : "set_obj-68",
 					"text" : "set sync"
 				}
@@ -60100,7 +60096,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 638.868469019731037, 340.0, 45.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 8,
+					"rnbo_serial" : 12,
 					"rnbo_uniqueid" : "set_obj-69",
 					"text" : "set run"
 				}
@@ -60115,7 +60111,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 699.0, 340.0, 48.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 9,
+					"rnbo_serial" : 13,
 					"rnbo_uniqueid" : "set_obj-71",
 					"text" : "set rate"
 				}
@@ -61866,8 +61862,7 @@
 									}
 
 								}
- ],
-							"autosave" : 0
+ ]
 						}
 
 					}
@@ -61880,7 +61875,7 @@
 					"patching_rect" : [ 570.368469019731037, 427.333687544177906, 251.0, 23.0 ],
 					"rnbo_classname" : "gen~",
 					"rnbo_extra_attributes" : 					{
-						"gencode" : "Param run(1, max=1, min=0);\nParam lag(1, max=48000, min=1);\nParam sync(0, max=1, min=0);\nParam rate(1, max=5000, min=0);\nHistory history_1(0);\nHistory history_2(0);\nadd_3 = history_2 + 1;\ngt_4 = add_3 > lag;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nselector_11 = selector(run, in1);\nmul_12 = sync * selector_11;\nselector_13 = selector(gt_4, mul_12);\nplusequals_14 = plusequals(selector_13, history_1);\nfloat_15 = float(0.22);\nmul_16 = float_15 * 2;\nrsub_17 = 1 - float_15;\ndiv_18 = mul_16 / rsub_17;\nadd_19 = div_18 + 1;\nmul_20 = div_9 * add_19;\nmul_21 = abs_10 * div_18;\nadd_22 = mul_21 + 1;\ndiv_23 = mul_20 / add_22;\nadd_24 = div_23 + plusequals_14;\nout4 = add_24;\ngt_25 = add_24 > 1;\nadd_26 = gt_25 + counter_7;\nselector_27 = selector(gt_4, add_26);\nout2 = selector_27;\nplusequals_28 = plusequals(1, add_26);\nand_29 = add_26 && gt_4;\nlatch_30 = latch(add_3, and_29);\nrdiv_31 = samplerate / latch_30;\nout3 = rdiv_31;\nselector_32 = selector(run, rdiv_31);\ncounter_33, counter_34, counter_35 = counter(selector_32, add_26, 0);\nadd_36 = counter_33 + plusequals_14;\ndiv_37 = add_36 / samplerate;\nclamp_38 = clamp(div_37, 0., 1.);\nout1 = clamp_38;\nhistory_1_next_39 = fixdenorm(gt_25);\nhistory_2_next_40 = fixdenorm(plusequals_28);\nhistory_1 = history_1_next_39;\nhistory_2 = history_2_next_40;",
+						"gencode" : "Param rate(1, max=5000, min=0);\nParam lag(1, max=48000, min=1);\nParam run(1, max=1, min=0);\nParam sync(0, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nadd_3 = history_2 + 1;\ngt_4 = add_3 > lag;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nselector_11 = selector(run, in1);\nmul_12 = sync * selector_11;\nselector_13 = selector(gt_4, mul_12);\nplusequals_14 = plusequals(selector_13, history_1);\nfloat_15 = float(0.22);\nmul_16 = float_15 * 2;\nrsub_17 = 1 - float_15;\ndiv_18 = mul_16 / rsub_17;\nadd_19 = div_18 + 1;\nmul_20 = div_9 * add_19;\nmul_21 = abs_10 * div_18;\nadd_22 = mul_21 + 1;\ndiv_23 = mul_20 / add_22;\nadd_24 = div_23 + plusequals_14;\nout4 = add_24;\ngt_25 = add_24 > 1;\nadd_26 = gt_25 + counter_7;\nselector_27 = selector(gt_4, add_26);\nout2 = selector_27;\nplusequals_28 = plusequals(1, add_26);\nand_29 = add_26 && gt_4;\nlatch_30 = latch(add_3, and_29);\nrdiv_31 = samplerate / latch_30;\nout3 = rdiv_31;\nselector_32 = selector(run, rdiv_31);\ncounter_33, counter_34, counter_35 = counter(selector_32, add_26, 0);\nadd_36 = counter_33 + plusequals_14;\ndiv_37 = add_36 / samplerate;\nclamp_38 = clamp(div_37, 0., 1.);\nout1 = clamp_38;\nhistory_1_next_39 = fixdenorm(gt_25);\nhistory_2_next_40 = fixdenorm(plusequals_28);\nhistory_1 = history_1_next_39;\nhistory_2 = history_2_next_40;",
 						"geninlets" : 1,
 						"genoutlets" : 4
 					}
@@ -62062,10 +62057,10 @@
 						"maximum" : "<none>",
 						"order" : "",
 						"preset" : 0,
-						"value" : 0.95
+						"value" : 1.04
 					}
 ,
-					"rnbo_serial" : 15,
+					"rnbo_serial" : 16,
 					"rnbo_uniqueid" : "number_obj-70",
 					"triscale" : 0.0
 				}
@@ -62080,7 +62075,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 479.496949374675751, 340.0, 51.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 10,
+					"rnbo_serial" : 14,
 					"rnbo_uniqueid" : "set_obj-33",
 					"text" : "set sync"
 				}
@@ -62191,7 +62186,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 256.868469019731037, 340.0, 45.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 11,
+					"rnbo_serial" : 15,
 					"rnbo_uniqueid" : "set_obj-42",
 					"text" : "set run"
 				}
@@ -62206,7 +62201,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 317.0, 340.0, 48.0, 23.0 ],
 					"rnbo_classname" : "set",
-					"rnbo_serial" : 12,
+					"rnbo_serial" : 16,
 					"rnbo_uniqueid" : "set_obj-41",
 					"text" : "set rate"
 				}
@@ -63516,22 +63511,6 @@
  ],
 							"lines" : [ 								{
 									"patchline" : 									{
-										"source" : [ "obj-44", 0 ],
-										"destination" : [ "obj-32", 1 ],
-										"order" : 0
-									}
-
-								}
-, 								{
-									"patchline" : 									{
-										"source" : [ "obj-24", 0 ],
-										"destination" : [ "obj-31", 0 ],
-										"order" : 2
-									}
-
-								}
-, 								{
-									"patchline" : 									{
 										"source" : [ "obj-9", 0 ],
 										"destination" : [ "obj-77", 0 ]
 									}
@@ -63665,6 +63644,14 @@
 										"source" : [ "obj-44", 0 ],
 										"destination" : [ "obj-35", 1 ],
 										"order" : 1
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-44", 0 ],
+										"destination" : [ "obj-32", 1 ],
+										"order" : 0
 									}
 
 								}
@@ -63825,6 +63812,14 @@
 , 								{
 									"patchline" : 									{
 										"source" : [ "obj-24", 0 ],
+										"destination" : [ "obj-31", 0 ],
+										"order" : 2
+									}
+
+								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-24", 0 ],
 										"destination" : [ "obj-26", 0 ],
 										"order" : 1
 									}
@@ -63957,8 +63952,7 @@
 									}
 
 								}
- ],
-							"autosave" : 0
+ ]
 						}
 
 					}
@@ -63971,7 +63965,7 @@
 					"patching_rect" : [ 191.868469019731037, 427.333687544177906, 251.0, 23.0 ],
 					"rnbo_classname" : "gen~",
 					"rnbo_extra_attributes" : 					{
-						"gencode" : "Param lag(1, max=48000, min=1);\nParam run(1, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam sync(0, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nadd_3 = history_2 + 1;\ngt_4 = add_3 > lag;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nselector_11 = selector(run, in1);\nmul_12 = sync * selector_11;\nselector_13 = selector(gt_4, mul_12);\nplusequals_14 = plusequals(selector_13, history_1);\nfloat_15 = float(0.22);\nmul_16 = float_15 * 2;\nrsub_17 = 1 - float_15;\ndiv_18 = mul_16 / rsub_17;\nadd_19 = div_18 + 1;\nmul_20 = div_9 * add_19;\nmul_21 = abs_10 * div_18;\nadd_22 = mul_21 + 1;\ndiv_23 = mul_20 / add_22;\nadd_24 = div_23 + plusequals_14;\nout4 = add_24;\ngt_25 = add_24 > 1;\nadd_26 = gt_25 + counter_7;\nselector_27 = selector(gt_4, add_26);\nout2 = selector_27;\nplusequals_28 = plusequals(1, add_26);\nand_29 = add_26 && gt_4;\nlatch_30 = latch(add_3, and_29);\nrdiv_31 = samplerate / latch_30;\nout3 = rdiv_31;\nselector_32 = selector(run, rdiv_31);\ncounter_33, counter_34, counter_35 = counter(selector_32, add_26, 0);\nadd_36 = counter_33 + plusequals_14;\ndiv_37 = add_36 / samplerate;\nclamp_38 = clamp(div_37, 0., 1.);\nout1 = clamp_38;\nhistory_1_next_39 = fixdenorm(gt_25);\nhistory_2_next_40 = fixdenorm(plusequals_28);\nhistory_1 = history_1_next_39;\nhistory_2 = history_2_next_40;",
+						"gencode" : "Param run(1, max=1, min=0);\nParam rate(1, max=5000, min=0);\nParam lag(1, max=48000, min=1);\nParam sync(0, max=1, min=0);\nHistory history_1(0);\nHistory history_2(0);\nadd_3 = history_2 + 1;\ngt_4 = add_3 > lag;\nselector_5 = selector(run, rate);\ncounter_6, counter_7, counter_8 = counter(selector_5, history_1, SAMPLERATE);\ndiv_9 = counter_6 / SAMPLERATE;\nabs_10 = abs(div_9);\nselector_11 = selector(run, in1);\nmul_12 = sync * selector_11;\nselector_13 = selector(gt_4, mul_12);\nplusequals_14 = plusequals(selector_13, history_1);\nfloat_15 = float(0.22);\nmul_16 = float_15 * 2;\nrsub_17 = 1 - float_15;\ndiv_18 = mul_16 / rsub_17;\nadd_19 = div_18 + 1;\nmul_20 = div_9 * add_19;\nmul_21 = abs_10 * div_18;\nadd_22 = mul_21 + 1;\ndiv_23 = mul_20 / add_22;\nadd_24 = div_23 + plusequals_14;\nout4 = add_24;\ngt_25 = add_24 > 1;\nadd_26 = gt_25 + counter_7;\nselector_27 = selector(gt_4, add_26);\nout2 = selector_27;\nplusequals_28 = plusequals(1, add_26);\nand_29 = add_26 && gt_4;\nlatch_30 = latch(add_3, and_29);\nrdiv_31 = samplerate / latch_30;\nout3 = rdiv_31;\nselector_32 = selector(run, rdiv_31);\ncounter_33, counter_34, counter_35 = counter(selector_32, add_26, 0);\nadd_36 = counter_33 + plusequals_14;\ndiv_37 = add_36 / samplerate;\nclamp_38 = clamp(div_37, 0., 1.);\nout1 = clamp_38;\nhistory_1_next_39 = fixdenorm(gt_25);\nhistory_2_next_40 = fixdenorm(plusequals_28);\nhistory_1 = history_1_next_39;\nhistory_2 = history_2_next_40;",
 						"geninlets" : 1,
 						"genoutlets" : 4
 					}
@@ -64158,7 +64152,7 @@
 						"value" : 1.0
 					}
 ,
-					"rnbo_serial" : 16,
+					"rnbo_serial" : 17,
 					"rnbo_uniqueid" : "number_obj-66",
 					"triscale" : 0.0
 				}

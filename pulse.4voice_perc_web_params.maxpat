@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 912.0, 100.0, 782.0, 931.0 ],
+		"rect" : [ 216.0, 87.0, 1468.0, 1231.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -108,7 +108,7 @@
 					}
 ,
 					"outlettype" : [ "signal", "signal", "int", "list" ],
-					"patching_rect" : [ 108.461540341377258, 183.890110373497009, 269.0, 22.0 ],
+					"patching_rect" : [ 108.461540341377258, 183.890110373497009, 345.0, 22.0 ],
 					"rnboattrcache" : 					{
 						"rate_3" : 						{
 							"label" : "rate_3",
@@ -304,11 +304,11 @@
 ,
 								"perc_3" : 								{
 									"duration" : 									{
-										"value" : 0.12
+										"value" : 1.0
 									}
 ,
 									"volume" : 									{
-										"value" : 3.0
+										"value" : 0.0
 									}
 
 								}
@@ -319,7 +319,7 @@
 ,
 								"perc_1" : 								{
 									"duration" : 									{
-										"value" : 0.7
+										"value" : 1.0
 									}
 ,
 									"volume" : 									{
@@ -348,7 +348,7 @@
 ,
 								"perc_2" : 								{
 									"duration" : 									{
-										"value" : 0.6
+										"value" : 1.0
 									}
 ,
 									"volume" : 									{
@@ -379,7 +379,7 @@
 ,
 								"percc_4" : 								{
 									"duration" : 									{
-										"value" : 0.9
+										"value" : 1.0
 									}
 ,
 									"volume" : 									{
@@ -403,11 +403,11 @@
 							}
 ,
 							"rate_3" : 							{
-								"value" : 5.780000000000001
+								"value" : 1.0
 							}
 ,
 							"probability_3" : 							{
-								"value" : 0.611
+								"value" : 1.0
 							}
 ,
 							"run_3" : 							{
@@ -419,7 +419,7 @@
 							}
 ,
 							"rate_2" : 							{
-								"value" : 9.300000000000001
+								"value" : 1.0
 							}
 ,
 							"run_2" : 							{
@@ -432,7 +432,7 @@
 							}
 ,
 							"rate_1" : 							{
-								"value" : 1.9
+								"value" : 1.0
 							}
 ,
 							"probability_1" : 							{
@@ -440,7 +440,7 @@
 							}
 ,
 							"rate_4" : 							{
-								"value" : 5.2
+								"value" : 1.0
 							}
 ,
 							"run_1" : 							{
@@ -452,7 +452,7 @@
 							}
 ,
 							"probability_2" : 							{
-								"value" : 0.38
+								"value" : 1.0
 							}
 
 						}
@@ -490,11 +490,11 @@
 ,
 											"perc_3" : 											{
 												"duration" : 												{
-													"value" : 0.12
+													"value" : 1.0
 												}
 ,
 												"volume" : 												{
-													"value" : 3.0
+													"value" : 0.0
 												}
 
 											}
@@ -505,7 +505,7 @@
 ,
 											"perc_1" : 											{
 												"duration" : 												{
-													"value" : 0.7
+													"value" : 1.0
 												}
 ,
 												"volume" : 												{
@@ -534,7 +534,7 @@
 ,
 											"perc_2" : 											{
 												"duration" : 												{
-													"value" : 0.6
+													"value" : 1.0
 												}
 ,
 												"volume" : 												{
@@ -565,7 +565,7 @@
 ,
 											"percc_4" : 											{
 												"duration" : 												{
-													"value" : 0.9
+													"value" : 1.0
 												}
 ,
 												"volume" : 												{
@@ -589,11 +589,11 @@
 										}
 ,
 										"rate_3" : 										{
-											"value" : 5.780000000000001
+											"value" : 1.0
 										}
 ,
 										"probability_3" : 										{
-											"value" : 0.611
+											"value" : 1.0
 										}
 ,
 										"run_3" : 										{
@@ -605,7 +605,7 @@
 										}
 ,
 										"rate_2" : 										{
-											"value" : 9.300000000000001
+											"value" : 1.0
 										}
 ,
 										"run_2" : 										{
@@ -618,7 +618,7 @@
 										}
 ,
 										"rate_1" : 										{
-											"value" : 1.9
+											"value" : 1.0
 										}
 ,
 										"probability_1" : 										{
@@ -626,7 +626,7 @@
 										}
 ,
 										"rate_4" : 										{
-											"value" : 5.2
+											"value" : 1.0
 										}
 ,
 										"run_1" : 										{
@@ -638,7 +638,7 @@
 										}
 ,
 										"probability_2" : 										{
-											"value" : 0.38
+											"value" : 1.0
 										}
 
 									}
@@ -657,7 +657,7 @@
 
 					}
 ,
-					"text" : "rnbo~ @patchername pulse.4voice_perc.rnbopat",
+					"text" : "rnbo~ @patchername pulse.4voice_perc_web_params.rnbopat",
 					"varname" : "rnbo~"
 				}
 
@@ -1188,10 +1188,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "pulse.4voice_perc.rnbopat",
-				"bootpath" : "~/.app-folders/Max 8/Library/pco",
-				"patcherrelativepath" : ".",
-				"type" : "RBOP",
+				"name" : "pulse.4voice_perc.maxsnap",
+				"bootpath" : "~/.app-folders/Max 8/Snapshots",
+				"patcherrelativepath" : "../../Snapshots",
+				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
@@ -1201,8 +1201,447 @@
 				"type" : "mx@s",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "pulse.4voice_perc_web_params.rnbopat",
+				"bootpath" : "~/.app-folders/Max 8/Library/pco",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
+				"implicit" : 1
+			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"snapshot" : 		{
+			"filetype" : "C74Snapshot",
+			"version" : 2,
+			"minorversion" : 0,
+			"name" : "snapshotlist",
+			"origin" : "jpatcher",
+			"type" : "list",
+			"subtype" : "Undefined",
+			"embed" : 1,
+			"snapshot" : 			{
+				"valuedictionary" : 				{
+					"parameter_values" : 					{
+						"live.gain~" : 0.0,
+						"blob" : 						{
+							"rnbo~" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "pulse.4voice_perc.rnbopat",
+									"origin" : "pulse.4voice_perc.rnbopat",
+									"type" : "rnbo",
+									"subtype" : "",
+									"embed" : 1,
+									"snapshot" : 									{
+										"probability_4" : 										{
+											"value" : 0.41
+										}
+,
+										"run_4" : 										{
+											"value" : 1.0
+										}
+,
+										"__sps" : 										{
+											"p_obj-140" : 											{
+												"__sps" : 												{
+													"p_obj-1" : 													{
+
+													}
+
+												}
+
+											}
+,
+											"perc_3" : 											{
+												"duration" : 												{
+													"value" : 0.66
+												}
+,
+												"volume" : 												{
+													"value" : -12.5
+												}
+
+											}
+,
+											"p_obj-26" : 											{
+
+											}
+,
+											"perc_1" : 											{
+												"duration" : 												{
+													"value" : 3.2
+												}
+,
+												"volume" : 												{
+													"value" : -2.0
+												}
+
+											}
+,
+											"p_obj-79" : 											{
+												"__sps" : 												{
+													"p_obj-1" : 													{
+
+													}
+
+												}
+
+											}
+,
+											"p_obj-72" : 											{
+
+											}
+,
+											"p_obj-105" : 											{
+
+											}
+,
+											"perc_2" : 											{
+												"duration" : 												{
+													"value" : 0.01
+												}
+,
+												"volume" : 												{
+													"value" : -6.5
+												}
+
+											}
+,
+											"p_obj-2" : 											{
+												"__sps" : 												{
+													"p_obj-1" : 													{
+
+													}
+
+												}
+
+											}
+,
+											"p_obj-142" : 											{
+												"__sps" : 												{
+													"p_obj-1" : 													{
+
+													}
+
+												}
+
+											}
+,
+											"percc_4" : 											{
+												"duration" : 												{
+													"value" : 1.36
+												}
+,
+												"volume" : 												{
+													"value" : -23.0
+												}
+
+											}
+,
+											"p_obj-50" : 											{
+
+											}
+,
+											"pco_reset_mixer" : 											{
+
+											}
+
+										}
+,
+										"listen_4" : 										{
+											"value" : 1.0
+										}
+,
+										"rate_3" : 										{
+											"value" : 6.09
+										}
+,
+										"probability_3" : 										{
+											"value" : 0.3
+										}
+,
+										"run_3" : 										{
+											"value" : 1.0
+										}
+,
+										"listen_3" : 										{
+											"value" : 1.0
+										}
+,
+										"rate_2" : 										{
+											"value" : 2.25
+										}
+,
+										"run_2" : 										{
+											"value" : 1.0
+										}
+,
+										"__presetid" : "pulse.4voice_perc.rnbopat",
+										"listen_2" : 										{
+											"value" : 1.0
+										}
+,
+										"rate_1" : 										{
+											"value" : 8.32
+										}
+,
+										"probability_1" : 										{
+											"value" : 0.48
+										}
+,
+										"rate_4" : 										{
+											"value" : 6.41
+										}
+,
+										"run_1" : 										{
+											"value" : 1.0
+										}
+,
+										"listen_1" : 										{
+											"value" : 1.0
+										}
+,
+										"probability_2" : 										{
+											"value" : 0.5
+										}
+
+									}
+
+								}
+ ]
+						}
+
+					}
+
+				}
+
+			}
+,
+			"snapshotlist" : 			{
+				"current_snapshot" : 0,
+				"entries" : [ 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "pulse.4voice_perc",
+						"origin" : "pulse.4voice_perc",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"snapshot" : 						{
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"live.gain~" : 0.0,
+									"blob" : 									{
+										"rnbo~" : [ 											{
+												"filetype" : "C74Snapshot",
+												"version" : 2,
+												"minorversion" : 0,
+												"name" : "pulse.4voice_perc.rnbopat",
+												"origin" : "pulse.4voice_perc.rnbopat",
+												"type" : "rnbo",
+												"subtype" : "",
+												"embed" : 1,
+												"snapshot" : 												{
+													"probability_4" : 													{
+														"value" : 0.41
+													}
+,
+													"run_4" : 													{
+														"value" : 1.0
+													}
+,
+													"__sps" : 													{
+														"p_obj-140" : 														{
+															"__sps" : 															{
+																"p_obj-1" : 																{
+
+																}
+
+															}
+
+														}
+,
+														"perc_3" : 														{
+															"duration" : 															{
+																"value" : 0.66
+															}
+,
+															"volume" : 															{
+																"value" : -12.5
+															}
+
+														}
+,
+														"p_obj-26" : 														{
+
+														}
+,
+														"perc_1" : 														{
+															"duration" : 															{
+																"value" : 3.2
+															}
+,
+															"volume" : 															{
+																"value" : -2.0
+															}
+
+														}
+,
+														"p_obj-79" : 														{
+															"__sps" : 															{
+																"p_obj-1" : 																{
+
+																}
+
+															}
+
+														}
+,
+														"p_obj-72" : 														{
+
+														}
+,
+														"p_obj-105" : 														{
+
+														}
+,
+														"perc_2" : 														{
+															"duration" : 															{
+																"value" : 0.01
+															}
+,
+															"volume" : 															{
+																"value" : -6.5
+															}
+
+														}
+,
+														"p_obj-2" : 														{
+															"__sps" : 															{
+																"p_obj-1" : 																{
+
+																}
+
+															}
+
+														}
+,
+														"p_obj-142" : 														{
+															"__sps" : 															{
+																"p_obj-1" : 																{
+
+																}
+
+															}
+
+														}
+,
+														"percc_4" : 														{
+															"duration" : 															{
+																"value" : 1.36
+															}
+,
+															"volume" : 															{
+																"value" : -23.0
+															}
+
+														}
+,
+														"p_obj-50" : 														{
+
+														}
+,
+														"pco_reset_mixer" : 														{
+
+														}
+
+													}
+,
+													"listen_4" : 													{
+														"value" : 1.0
+													}
+,
+													"rate_3" : 													{
+														"value" : 6.09
+													}
+,
+													"probability_3" : 													{
+														"value" : 0.3
+													}
+,
+													"run_3" : 													{
+														"value" : 1.0
+													}
+,
+													"listen_3" : 													{
+														"value" : 1.0
+													}
+,
+													"rate_2" : 													{
+														"value" : 2.25
+													}
+,
+													"run_2" : 													{
+														"value" : 1.0
+													}
+,
+													"__presetid" : "pulse.4voice_perc.rnbopat",
+													"listen_2" : 													{
+														"value" : 1.0
+													}
+,
+													"rate_1" : 													{
+														"value" : 8.32
+													}
+,
+													"probability_1" : 													{
+														"value" : 0.48
+													}
+,
+													"rate_4" : 													{
+														"value" : 6.41
+													}
+,
+													"run_1" : 													{
+														"value" : 1.0
+													}
+,
+													"listen_1" : 													{
+														"value" : 1.0
+													}
+,
+													"probability_2" : 													{
+														"value" : 0.5
+													}
+
+												}
+
+											}
+ ]
+									}
+
+								}
+
+							}
+
+						}
+,
+						"fileref" : 						{
+							"name" : "pulse.4voice_perc",
+							"filename" : "pulse.4voice_perc.maxsnap",
+							"filepath" : "~/.app-folders/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "e10b78909ac41b2d03959de4014901e9"
+						}
+
+					}
+ ]
+			}
+
+		}
+
 	}
 
 }
